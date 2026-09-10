@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "VOCA QUEST",
+    "slug": "voca-quest",
+    "scheme": "vocaquest",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.vocaquest.app",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
+    },
+    "android": {
+      "package": "com.vocaquest.app",
+      "edgeToEdgeEnabled": true,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#184E43"
+      }
+    },
+    "plugins": [
+      "expo-dev-client",
+      "expo-notifications",
+      [
+        "expo-speech-recognition",
+        {
+          "microphonePermission": "영어 발음 연습을 위해 마이크를 사용합니다.",
+          "speechRecognitionPermission": "말한 영어를 텍스트로 인식하여 학습합니다."
+        }
+      ]
+    ],
+    "web": {
+      "bundler": "metro"
+    },
+    "icon": "./assets/icon.png"
+  }
+}

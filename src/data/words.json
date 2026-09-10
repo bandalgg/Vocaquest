@@ -1,0 +1,3363 @@
+[
+  {
+    "id": "w001",
+    "word": "acquire",
+    "pronunciation": "/əˈkwaɪər/",
+    "ipa": "əˈkwaɪər",
+    "partOfSpeech": "동사",
+    "meanings": [
+      "획득하다",
+      "습득하다"
+    ],
+    "examples": [
+      {
+        "sentence": "She acquired useful skills at the repair workshop.",
+        "translation": "그녀는 수리 워크숍에서 유용한 기술을 습득했다.",
+        "answer": "acquired"
+      }
+    ],
+    "synonyms": [
+      "obtain",
+      "gain"
+    ],
+    "antonyms": [
+      "lose"
+    ],
+    "difficulty": 3,
+    "categories": [
+      "수능 영어",
+      "고등학교 영어",
+      "수능 필수",
+      "고3"
+    ],
+    "frequency": 3,
+    "audioUrl": null
+  },
+  {
+    "id": "w002",
+    "word": "adapt",
+    "pronunciation": "/əˈdæpt/",
+    "ipa": "əˈdæpt",
+    "partOfSpeech": "동사",
+    "meanings": [
+      "적응하다"
+    ],
+    "examples": [
+      {
+        "sentence": "Small plants adapt to changes in sunlight.",
+        "translation": "작은 식물들은 햇빛의 변화에 적응한다.",
+        "answer": "adapt"
+      }
+    ],
+    "synonyms": [
+      "adjust"
+    ],
+    "antonyms": [],
+    "difficulty": 2,
+    "categories": [
+      "수능 영어",
+      "고등학교 영어",
+      "수능 필수",
+      "고2"
+    ],
+    "frequency": 4,
+    "audioUrl": null
+  },
+  {
+    "id": "w003",
+    "word": "analyze",
+    "pronunciation": "/ˈænəlaɪz/",
+    "ipa": "ˈænəlaɪz",
+    "partOfSpeech": "동사",
+    "meanings": [
+      "분석하다"
+    ],
+    "examples": [
+      {
+        "sentence": "We analyze the results before changing the design.",
+        "translation": "우리는 설계를 바꾸기 전에 결과를 분석한다.",
+        "answer": "analyze"
+      }
+    ],
+    "synonyms": [
+      "examine"
+    ],
+    "antonyms": [],
+    "difficulty": 3,
+    "categories": [
+      "수능 영어",
+      "고등학교 영어",
+      "수능 필수",
+      "고3"
+    ],
+    "frequency": 3,
+    "audioUrl": null
+  },
+  {
+    "id": "w004",
+    "word": "approach",
+    "pronunciation": "/əˈproʊtʃ/",
+    "ipa": "əˈproʊtʃ",
+    "partOfSpeech": "명사",
+    "meanings": [
+      "접근법"
+    ],
+    "examples": [
+      {
+        "sentence": "Her practical approach saved us several hours.",
+        "translation": "그녀의 실용적인 접근법은 우리에게 몇 시간을 절약해 주었다.",
+        "answer": "approach"
+      }
+    ],
+    "synonyms": [
+      "method"
+    ],
+    "antonyms": [],
+    "difficulty": 3,
+    "categories": [
+      "수능 영어",
+      "고등학교 영어",
+      "수능 필수",
+      "고3"
+    ],
+    "frequency": 3,
+    "audioUrl": null
+  },
+  {
+    "id": "w005",
+    "word": "benefit",
+    "pronunciation": "/ˈbenɪfɪt/",
+    "ipa": "ˈbenɪfɪt",
+    "partOfSpeech": "명사",
+    "meanings": [
+      "이점"
+    ],
+    "examples": [
+      {
+        "sentence": "One benefit of cycling is lower transport costs.",
+        "translation": "자전거 타기의 한 가지 이점은 교통비가 줄어드는 것이다.",
+        "answer": "benefit"
+      }
+    ],
+    "synonyms": [
+      "advantage"
+    ],
+    "antonyms": [
+      "drawback"
+    ],
+    "difficulty": 2,
+    "categories": [
+      "수능 영어",
+      "고등학교 영어",
+      "수능 필수",
+      "고2"
+    ],
+    "frequency": 4,
+    "audioUrl": null
+  },
+  {
+    "id": "w006",
+    "word": "challenge",
+    "pronunciation": "/ˈtʃælɪndʒ/",
+    "ipa": "ˈtʃælɪndʒ",
+    "partOfSpeech": "명사",
+    "meanings": [
+      "도전"
+    ],
+    "examples": [
+      {
+        "sentence": "Learning to cook became a pleasant challenge.",
+        "translation": "요리 배우기는 즐거운 도전이 되었다.",
+        "answer": "challenge"
+      }
+    ],
+    "synonyms": [
+      "test"
+    ],
+    "antonyms": [],
+    "difficulty": 2,
+    "categories": [
+      "수능 영어",
+      "고등학교 영어",
+      "수능 필수",
+      "고2"
+    ],
+    "frequency": 4,
+    "audioUrl": null
+  },
+  {
+    "id": "w007",
+    "word": "compare",
+    "pronunciation": "/kəmˈper/",
+    "ipa": "kəmˈper",
+    "partOfSpeech": "동사",
+    "meanings": [
+      "비교하다"
+    ],
+    "examples": [
+      {
+        "sentence": "Please compare the two routes on the map.",
+        "translation": "지도에 있는 두 경로를 비교해 주세요.",
+        "answer": "compare"
+      }
+    ],
+    "synonyms": [
+      "contrast"
+    ],
+    "antonyms": [],
+    "difficulty": 2,
+    "categories": [
+      "수능 영어",
+      "고등학교 영어",
+      "수능 필수",
+      "고2"
+    ],
+    "frequency": 4,
+    "audioUrl": null
+  },
+  {
+    "id": "w008",
+    "word": "contribute",
+    "pronunciation": "/kənˈtrɪbjuːt/",
+    "ipa": "kənˈtrɪbjuːt",
+    "partOfSpeech": "동사",
+    "meanings": [
+      "기여하다"
+    ],
+    "examples": [
+      {
+        "sentence": "Local volunteers contribute to the clean river project.",
+        "translation": "지역 자원봉사자들은 깨끗한 강 프로젝트에 기여한다.",
+        "answer": "contribute"
+      }
+    ],
+    "synonyms": [
+      "help"
+    ],
+    "antonyms": [],
+    "difficulty": 3,
+    "categories": [
+      "수능 영어",
+      "고등학교 영어",
+      "수능 필수",
+      "고3"
+    ],
+    "frequency": 3,
+    "audioUrl": null
+  },
+  {
+    "id": "w009",
+    "word": "decrease",
+    "pronunciation": "/dɪˈkriːs/",
+    "ipa": "dɪˈkriːs",
+    "partOfSpeech": "동사",
+    "meanings": [
+      "감소하다"
+    ],
+    "examples": [
+      {
+        "sentence": "Energy use may decrease after the repairs.",
+        "translation": "수리 후에 에너지 사용량이 감소할 수 있다.",
+        "answer": "decrease"
+      }
+    ],
+    "synonyms": [
+      "decline"
+    ],
+    "antonyms": [
+      "increase"
+    ],
+    "difficulty": 2,
+    "categories": [
+      "수능 영어",
+      "고등학교 영어",
+      "수능 필수",
+      "고2"
+    ],
+    "frequency": 4,
+    "audioUrl": null
+  },
+  {
+    "id": "w010",
+    "word": "define",
+    "pronunciation": "/dɪˈfaɪn/",
+    "ipa": "dɪˈfaɪn",
+    "partOfSpeech": "동사",
+    "meanings": [
+      "정의하다"
+    ],
+    "examples": [
+      {
+        "sentence": "The first page will define the key terms.",
+        "translation": "첫 페이지에서 핵심 용어를 정의할 것이다.",
+        "answer": "define"
+      }
+    ],
+    "synonyms": [
+      "specify"
+    ],
+    "antonyms": [],
+    "difficulty": 3,
+    "categories": [
+      "수능 영어",
+      "고등학교 영어",
+      "수능 필수",
+      "고3"
+    ],
+    "frequency": 3,
+    "audioUrl": null
+  },
+  {
+    "id": "w011",
+    "word": "develop",
+    "pronunciation": "/dɪˈveləp/",
+    "ipa": "dɪˈveləp",
+    "partOfSpeech": "동사",
+    "meanings": [
+      "개발하다"
+    ],
+    "examples": [
+      {
+        "sentence": "Our team will develop a tool for language learners.",
+        "translation": "우리 팀은 언어 학습자를 위한 도구를 개발할 것이다.",
+        "answer": "develop"
+      }
+    ],
+    "synonyms": [
+      "create"
+    ],
+    "antonyms": [],
+    "difficulty": 2,
+    "categories": [
+      "수능 영어",
+      "고등학교 영어",
+      "수능 필수",
+      "고2"
+    ],
+    "frequency": 4,
+    "audioUrl": null
+  },
+  {
+    "id": "w012",
+    "word": "efficient",
+    "pronunciation": "/ɪˈfɪʃənt/",
+    "ipa": "ɪˈfɪʃənt",
+    "partOfSpeech": "형용사",
+    "meanings": [
+      "효율적인"
+    ],
+    "examples": [
+      {
+        "sentence": "This efficient heater uses less electricity.",
+        "translation": "이 효율적인 난방기는 전기를 덜 사용한다.",
+        "answer": "efficient"
+      }
+    ],
+    "synonyms": [
+      "productive"
+    ],
+    "antonyms": [
+      "inefficient"
+    ],
+    "difficulty": 3,
+    "categories": [
+      "수능 영어",
+      "고등학교 영어",
+      "수능 필수",
+      "고3"
+    ],
+    "frequency": 3,
+    "audioUrl": null
+  },
+  {
+    "id": "w013",
+    "word": "environment",
+    "pronunciation": "/ɪnˈvaɪrənmənt/",
+    "ipa": "ɪnˈvaɪrənmənt",
+    "partOfSpeech": "명사",
+    "meanings": [
+      "환경"
+    ],
+    "examples": [
+      {
+        "sentence": "A quiet environment helps me focus on reading.",
+        "translation": "조용한 환경은 내가 독서에 집중하는 데 도움이 된다.",
+        "answer": "environment"
+      }
+    ],
+    "synonyms": [
+      "surroundings"
+    ],
+    "antonyms": [],
+    "difficulty": 2,
+    "categories": [
+      "수능 영어",
+      "고등학교 영어",
+      "수능 필수",
+      "고2"
+    ],
+    "frequency": 4,
+    "audioUrl": null
+  },
+  {
+    "id": "w014",
+    "word": "essential",
+    "pronunciation": "/ɪˈsenʃəl/",
+    "ipa": "ɪˈsenʃəl",
+    "partOfSpeech": "형용사",
+    "meanings": [
+      "필수적인"
+    ],
+    "examples": [
+      {
+        "sentence": "Clean water is essential for every community.",
+        "translation": "깨끗한 물은 모든 공동체에 필수적이다.",
+        "answer": "essential"
+      }
+    ],
+    "synonyms": [
+      "necessary"
+    ],
+    "antonyms": [
+      "optional"
+    ],
+    "difficulty": 3,
+    "categories": [
+      "수능 영어",
+      "고등학교 영어",
+      "수능 필수",
+      "고3"
+    ],
+    "frequency": 3,
+    "audioUrl": null
+  },
+  {
+    "id": "w015",
+    "word": "estimate",
+    "pronunciation": "/ˈestɪmeɪt/",
+    "ipa": "ˈestɪmeɪt",
+    "partOfSpeech": "동사",
+    "meanings": [
+      "추정하다"
+    ],
+    "examples": [
+      {
+        "sentence": "Can you estimate the time needed for delivery?",
+        "translation": "배송에 필요한 시간을 추정할 수 있나요?",
+        "answer": "estimate"
+      }
+    ],
+    "synonyms": [
+      "approximate"
+    ],
+    "antonyms": [],
+    "difficulty": 3,
+    "categories": [
+      "수능 영어",
+      "고등학교 영어",
+      "수능 필수",
+      "고3"
+    ],
+    "frequency": 3,
+    "audioUrl": null
+  },
+  {
+    "id": "w016",
+    "word": "evidence",
+    "pronunciation": "/ˈevɪdəns/",
+    "ipa": "ˈevɪdəns",
+    "partOfSpeech": "명사",
+    "meanings": [
+      "증거"
+    ],
+    "examples": [
+      {
+        "sentence": "The photo provides evidence of the damaged roof.",
+        "translation": "그 사진은 손상된 지붕의 증거를 제공한다.",
+        "answer": "evidence"
+      }
+    ],
+    "synonyms": [
+      "proof"
+    ],
+    "antonyms": [],
+    "difficulty": 3,
+    "categories": [
+      "수능 영어",
+      "고등학교 영어",
+      "수능 필수",
+      "고3"
+    ],
+    "frequency": 3,
+    "audioUrl": null
+  },
+  {
+    "id": "w017",
+    "word": "expand",
+    "pronunciation": "/ɪkˈspænd/",
+    "ipa": "ɪkˈspænd",
+    "partOfSpeech": "동사",
+    "meanings": [
+      "확장하다"
+    ],
+    "examples": [
+      {
+        "sentence": "We plan to expand the garden next spring.",
+        "translation": "우리는 내년 봄에 정원을 확장할 계획이다.",
+        "answer": "expand"
+      }
+    ],
+    "synonyms": [
+      "enlarge"
+    ],
+    "antonyms": [
+      "shrink"
+    ],
+    "difficulty": 3,
+    "categories": [
+      "수능 영어",
+      "고등학교 영어",
+      "수능 필수",
+      "고3"
+    ],
+    "frequency": 3,
+    "audioUrl": null
+  },
+  {
+    "id": "w018",
+    "word": "factor",
+    "pronunciation": "/ˈfæktər/",
+    "ipa": "ˈfæktər",
+    "partOfSpeech": "명사",
+    "meanings": [
+      "요인"
+    ],
+    "examples": [
+      {
+        "sentence": "Price is only one factor in our decision.",
+        "translation": "가격은 우리 결정의 한 가지 요인일 뿐이다.",
+        "answer": "factor"
+      }
+    ],
+    "synonyms": [
+      "element"
+    ],
+    "antonyms": [],
+    "difficulty": 3,
+    "categories": [
+      "수능 영어",
+      "고등학교 영어",
+      "수능 필수",
+      "고3"
+    ],
+    "frequency": 3,
+    "audioUrl": null
+  },
+  {
+    "id": "w019",
+    "word": "focus",
+    "pronunciation": "/ˈfoʊkəs/",
+    "ipa": "ˈfoʊkəs",
+    "partOfSpeech": "동사",
+    "meanings": [
+      "집중하다"
+    ],
+    "examples": [
+      {
+        "sentence": "Try to focus on one task at a time.",
+        "translation": "한 번에 한 가지 일에 집중해 보세요.",
+        "answer": "focus"
+      }
+    ],
+    "synonyms": [
+      "concentrate"
+    ],
+    "antonyms": [],
+    "difficulty": 2,
+    "categories": [
+      "수능 영어",
+      "고등학교 영어",
+      "수능 필수",
+      "고2"
+    ],
+    "frequency": 4,
+    "audioUrl": null
+  },
+  {
+    "id": "w020",
+    "word": "generate",
+    "pronunciation": "/ˈdʒenəreɪt/",
+    "ipa": "ˈdʒenəreɪt",
+    "partOfSpeech": "동사",
+    "meanings": [
+      "생성하다"
+    ],
+    "examples": [
+      {
+        "sentence": "The panels generate electricity during the day.",
+        "translation": "그 패널들은 낮 동안 전기를 생성한다.",
+        "answer": "generate"
+      }
+    ],
+    "synonyms": [
+      "produce"
+    ],
+    "antonyms": [],
+    "difficulty": 3,
+    "categories": [
+      "수능 영어",
+      "고등학교 영어",
+      "수능 필수",
+      "고3"
+    ],
+    "frequency": 3,
+    "audioUrl": null
+  },
+  {
+    "id": "w021",
+    "word": "impact",
+    "pronunciation": "/ˈɪmpækt/",
+    "ipa": "ˈɪmpækt",
+    "partOfSpeech": "명사",
+    "meanings": [
+      "영향"
+    ],
+    "examples": [
+      {
+        "sentence": "The new park had a positive impact on the neighborhood.",
+        "translation": "새 공원은 동네에 긍정적인 영향을 주었다.",
+        "answer": "impact"
+      }
+    ],
+    "synonyms": [
+      "effect"
+    ],
+    "antonyms": [],
+    "difficulty": 3,
+    "categories": [
+      "수능 영어",
+      "고등학교 영어",
+      "수능 필수",
+      "고3"
+    ],
+    "frequency": 3,
+    "audioUrl": null
+  },
+  {
+    "id": "w022",
+    "word": "improve",
+    "pronunciation": "/ɪmˈpruːv/",
+    "ipa": "ɪmˈpruːv",
+    "partOfSpeech": "동사",
+    "meanings": [
+      "개선하다"
+    ],
+    "examples": [
+      {
+        "sentence": "Short breaks can improve your concentration.",
+        "translation": "짧은 휴식은 집중력을 개선할 수 있다.",
+        "answer": "improve"
+      }
+    ],
+    "synonyms": [
+      "enhance"
+    ],
+    "antonyms": [
+      "worsen"
+    ],
+    "difficulty": 2,
+    "categories": [
+      "수능 영어",
+      "고등학교 영어",
+      "수능 필수",
+      "고2"
+    ],
+    "frequency": 4,
+    "audioUrl": null
+  },
+  {
+    "id": "w023",
+    "word": "increase",
+    "pronunciation": "/ɪnˈkriːs/",
+    "ipa": "ɪnˈkriːs",
+    "partOfSpeech": "동사",
+    "meanings": [
+      "증가하다"
+    ],
+    "examples": [
+      {
+        "sentence": "Ticket prices often increase in summer.",
+        "translation": "표 가격은 여름에 자주 증가한다.",
+        "answer": "increase"
+      }
+    ],
+    "synonyms": [
+      "rise"
+    ],
+    "antonyms": [
+      "decrease"
+    ],
+    "difficulty": 2,
+    "categories": [
+      "수능 영어",
+      "고등학교 영어",
+      "수능 필수",
+      "고2"
+    ],
+    "frequency": 4,
+    "audioUrl": null
+  },
+  {
+    "id": "w024",
+    "word": "individual",
+    "pronunciation": "/ˌɪndɪˈvɪdʒuəl/",
+    "ipa": "ˌɪndɪˈvɪdʒuəl",
+    "partOfSpeech": "형용사",
+    "meanings": [
+      "개인의"
+    ],
+    "examples": [
+      {
+        "sentence": "Each student has an individual reading goal.",
+        "translation": "각 학생에게는 개인의 독서 목표가 있다.",
+        "answer": "individual"
+      }
+    ],
+    "synonyms": [
+      "personal"
+    ],
+    "antonyms": [
+      "collective"
+    ],
+    "difficulty": 3,
+    "categories": [
+      "수능 영어",
+      "고등학교 영어",
+      "수능 필수",
+      "고3"
+    ],
+    "frequency": 3,
+    "audioUrl": null
+  },
+  {
+    "id": "w025",
+    "word": "maintain",
+    "pronunciation": "/meɪnˈteɪn/",
+    "ipa": "meɪnˈteɪn",
+    "partOfSpeech": "동사",
+    "meanings": [
+      "유지하다"
+    ],
+    "examples": [
+      {
+        "sentence": "Regular cleaning helps maintain the equipment.",
+        "translation": "정기적인 청소는 장비를 유지하는 데 도움이 된다.",
+        "answer": "maintain"
+      }
+    ],
+    "synonyms": [
+      "preserve"
+    ],
+    "antonyms": [],
+    "difficulty": 3,
+    "categories": [
+      "수능 영어",
+      "고등학교 영어",
+      "수능 필수",
+      "고3"
+    ],
+    "frequency": 3,
+    "audioUrl": null
+  },
+  {
+    "id": "w026",
+    "word": "observe",
+    "pronunciation": "/əbˈzɜːrv/",
+    "ipa": "əbˈzɜːrv",
+    "partOfSpeech": "동사",
+    "meanings": [
+      "관찰하다"
+    ],
+    "examples": [
+      {
+        "sentence": "Children observe insects through a clear box.",
+        "translation": "아이들은 투명한 상자를 통해 곤충을 관찰한다.",
+        "answer": "observe"
+      }
+    ],
+    "synonyms": [
+      "watch"
+    ],
+    "antonyms": [],
+    "difficulty": 3,
+    "categories": [
+      "수능 영어",
+      "고등학교 영어",
+      "수능 필수",
+      "고3"
+    ],
+    "frequency": 3,
+    "audioUrl": null
+  },
+  {
+    "id": "w027",
+    "word": "opportunity",
+    "pronunciation": "/ˌɑːpərˈtuːnəti/",
+    "ipa": "ˌɑːpərˈtuːnəti",
+    "partOfSpeech": "명사",
+    "meanings": [
+      "기회"
+    ],
+    "examples": [
+      {
+        "sentence": "The workshop offers an opportunity to meet local artists.",
+        "translation": "그 워크숍은 지역 예술가들을 만날 기회를 제공한다.",
+        "answer": "opportunity"
+      }
+    ],
+    "synonyms": [
+      "chance"
+    ],
+    "antonyms": [],
+    "difficulty": 3,
+    "categories": [
+      "수능 영어",
+      "고등학교 영어",
+      "수능 필수",
+      "고3"
+    ],
+    "frequency": 3,
+    "audioUrl": null
+  },
+  {
+    "id": "w028",
+    "word": "participate",
+    "pronunciation": "/pɑːrˈtɪsɪpeɪt/",
+    "ipa": "pɑːrˈtɪsɪpeɪt",
+    "partOfSpeech": "동사",
+    "meanings": [
+      "참여하다"
+    ],
+    "examples": [
+      {
+        "sentence": "Everyone can participate in the weekend cleanup.",
+        "translation": "누구나 주말 청소 활동에 참여할 수 있다.",
+        "answer": "participate"
+      }
+    ],
+    "synonyms": [
+      "join"
+    ],
+    "antonyms": [],
+    "difficulty": 3,
+    "categories": [
+      "수능 영어",
+      "고등학교 영어",
+      "수능 필수",
+      "고3"
+    ],
+    "frequency": 3,
+    "audioUrl": null
+  },
+  {
+    "id": "w029",
+    "word": "perspective",
+    "pronunciation": "/pərˈspektɪv/",
+    "ipa": "pərˈspektɪv",
+    "partOfSpeech": "명사",
+    "meanings": [
+      "관점"
+    ],
+    "examples": [
+      {
+        "sentence": "Travel gave her a new perspective on daily life.",
+        "translation": "여행은 그녀에게 일상에 대한 새로운 관점을 주었다.",
+        "answer": "perspective"
+      }
+    ],
+    "synonyms": [
+      "viewpoint"
+    ],
+    "antonyms": [],
+    "difficulty": 4,
+    "categories": [
+      "수능 영어",
+      "고등학교 영어",
+      "수능 고난도",
+      "고3"
+    ],
+    "frequency": 2,
+    "audioUrl": null
+  },
+  {
+    "id": "w030",
+    "word": "prevent",
+    "pronunciation": "/prɪˈvent/",
+    "ipa": "prɪˈvent",
+    "partOfSpeech": "동사",
+    "meanings": [
+      "예방하다",
+      "막다"
+    ],
+    "examples": [
+      {
+        "sentence": "A strong password can prevent unwanted access.",
+        "translation": "강력한 비밀번호는 원치 않는 접근을 막을 수 있다.",
+        "answer": "prevent"
+      }
+    ],
+    "synonyms": [
+      "stop"
+    ],
+    "antonyms": [
+      "allow"
+    ],
+    "difficulty": 3,
+    "categories": [
+      "수능 영어",
+      "고등학교 영어",
+      "수능 필수",
+      "고3"
+    ],
+    "frequency": 3,
+    "audioUrl": null
+  },
+  {
+    "id": "w031",
+    "word": "process",
+    "pronunciation": "/ˈprɑːses/",
+    "ipa": "ˈprɑːses",
+    "partOfSpeech": "명사",
+    "meanings": [
+      "과정"
+    ],
+    "examples": [
+      {
+        "sentence": "The drying process takes about two hours.",
+        "translation": "건조 과정은 약 두 시간이 걸린다.",
+        "answer": "process"
+      }
+    ],
+    "synonyms": [
+      "procedure"
+    ],
+    "antonyms": [],
+    "difficulty": 2,
+    "categories": [
+      "수능 영어",
+      "고등학교 영어",
+      "수능 필수",
+      "고2"
+    ],
+    "frequency": 4,
+    "audioUrl": null
+  },
+  {
+    "id": "w032",
+    "word": "recognize",
+    "pronunciation": "/ˈrekəɡnaɪz/",
+    "ipa": "ˈrekəɡnaɪz",
+    "partOfSpeech": "동사",
+    "meanings": [
+      "알아보다"
+    ],
+    "examples": [
+      {
+        "sentence": "I recognize that voice from the radio program.",
+        "translation": "나는 라디오 프로그램에서 들은 그 목소리를 알아본다.",
+        "answer": "recognize"
+      }
+    ],
+    "synonyms": [
+      "identify"
+    ],
+    "antonyms": [],
+    "difficulty": 3,
+    "categories": [
+      "수능 영어",
+      "고등학교 영어",
+      "수능 필수",
+      "고3"
+    ],
+    "frequency": 3,
+    "audioUrl": null
+  },
+  {
+    "id": "w033",
+    "word": "reduce",
+    "pronunciation": "/rɪˈduːs/",
+    "ipa": "rɪˈduːs",
+    "partOfSpeech": "동사",
+    "meanings": [
+      "줄이다"
+    ],
+    "examples": [
+      {
+        "sentence": "Reusable bottles reduce plastic waste.",
+        "translation": "재사용 가능한 병은 플라스틱 쓰레기를 줄인다.",
+        "answer": "reduce"
+      }
+    ],
+    "synonyms": [
+      "decrease"
+    ],
+    "antonyms": [
+      "increase"
+    ],
+    "difficulty": 2,
+    "categories": [
+      "수능 영어",
+      "고등학교 영어",
+      "수능 필수",
+      "고2"
+    ],
+    "frequency": 4,
+    "audioUrl": null
+  },
+  {
+    "id": "w034",
+    "word": "require",
+    "pronunciation": "/rɪˈkwaɪər/",
+    "ipa": "rɪˈkwaɪər",
+    "partOfSpeech": "동사",
+    "meanings": [
+      "필요로 하다"
+    ],
+    "examples": [
+      {
+        "sentence": "Some plants require very little water.",
+        "translation": "어떤 식물들은 물을 아주 조금 필요로 한다.",
+        "answer": "require"
+      }
+    ],
+    "synonyms": [
+      "need"
+    ],
+    "antonyms": [],
+    "difficulty": 2,
+    "categories": [
+      "수능 영어",
+      "고등학교 영어",
+      "수능 필수",
+      "고2"
+    ],
+    "frequency": 4,
+    "audioUrl": null
+  },
+  {
+    "id": "w035",
+    "word": "resource",
+    "pronunciation": "/ˈriːsɔːrs/",
+    "ipa": "ˈriːsɔːrs",
+    "partOfSpeech": "명사",
+    "meanings": [
+      "자원"
+    ],
+    "examples": [
+      {
+        "sentence": "The school library is a valuable resource.",
+        "translation": "학교 도서관은 가치 있는 자원이다.",
+        "answer": "resource"
+      }
+    ],
+    "synonyms": [
+      "asset"
+    ],
+    "antonyms": [],
+    "difficulty": 3,
+    "categories": [
+      "수능 영어",
+      "고등학교 영어",
+      "수능 필수",
+      "고3"
+    ],
+    "frequency": 3,
+    "audioUrl": null
+  },
+  {
+    "id": "w036",
+    "word": "respond",
+    "pronunciation": "/rɪˈspɑːnd/",
+    "ipa": "rɪˈspɑːnd",
+    "partOfSpeech": "동사",
+    "meanings": [
+      "응답하다"
+    ],
+    "examples": [
+      {
+        "sentence": "Please respond to the invitation by Friday.",
+        "translation": "금요일까지 초대에 응답해 주세요.",
+        "answer": "respond"
+      }
+    ],
+    "synonyms": [
+      "reply"
+    ],
+    "antonyms": [],
+    "difficulty": 2,
+    "categories": [
+      "수능 영어",
+      "고등학교 영어",
+      "수능 필수",
+      "고2"
+    ],
+    "frequency": 4,
+    "audioUrl": null
+  },
+  {
+    "id": "w037",
+    "word": "significant",
+    "pronunciation": "/sɪɡˈnɪfɪkənt/",
+    "ipa": "sɪɡˈnɪfɪkənt",
+    "partOfSpeech": "형용사",
+    "meanings": [
+      "중요한",
+      "상당한"
+    ],
+    "examples": [
+      {
+        "sentence": "The new battery shows a significant improvement.",
+        "translation": "새 배터리는 상당한 개선을 보여 준다.",
+        "answer": "significant"
+      }
+    ],
+    "synonyms": [
+      "substantial"
+    ],
+    "antonyms": [
+      "minor"
+    ],
+    "difficulty": 4,
+    "categories": [
+      "수능 영어",
+      "고등학교 영어",
+      "수능 고난도",
+      "고3"
+    ],
+    "frequency": 2,
+    "audioUrl": null
+  },
+  {
+    "id": "w038",
+    "word": "solution",
+    "pronunciation": "/səˈluːʃən/",
+    "ipa": "səˈluːʃən",
+    "partOfSpeech": "명사",
+    "meanings": [
+      "해결책"
+    ],
+    "examples": [
+      {
+        "sentence": "We found a simple solution to the storage problem.",
+        "translation": "우리는 보관 문제에 대한 간단한 해결책을 찾았다.",
+        "answer": "solution"
+      }
+    ],
+    "synonyms": [
+      "answer"
+    ],
+    "antonyms": [],
+    "difficulty": 2,
+    "categories": [
+      "수능 영어",
+      "고등학교 영어",
+      "수능 필수",
+      "고2"
+    ],
+    "frequency": 4,
+    "audioUrl": null
+  },
+  {
+    "id": "w039",
+    "word": "support",
+    "pronunciation": "/səˈpɔːrt/",
+    "ipa": "səˈpɔːrt",
+    "partOfSpeech": "동사",
+    "meanings": [
+      "지원하다"
+    ],
+    "examples": [
+      {
+        "sentence": "Local shops support the annual book festival.",
+        "translation": "지역 상점들은 연례 도서 축제를 지원한다.",
+        "answer": "support"
+      }
+    ],
+    "synonyms": [
+      "assist"
+    ],
+    "antonyms": [
+      "oppose"
+    ],
+    "difficulty": 1,
+    "categories": [
+      "수능 영어",
+      "고등학교 영어",
+      "수능 필수",
+      "고1"
+    ],
+    "frequency": 5,
+    "audioUrl": null
+  },
+  {
+    "id": "w040",
+    "word": "variety",
+    "pronunciation": "/vəˈraɪəti/",
+    "ipa": "vəˈraɪəti",
+    "partOfSpeech": "명사",
+    "meanings": [
+      "다양성",
+      "여러 종류"
+    ],
+    "examples": [
+      {
+        "sentence": "The market sells a variety of fresh vegetables.",
+        "translation": "그 시장은 여러 종류의 신선한 채소를 판다.",
+        "answer": "variety"
+      }
+    ],
+    "synonyms": [
+      "diversity"
+    ],
+    "antonyms": [],
+    "difficulty": 3,
+    "categories": [
+      "수능 영어",
+      "고등학교 영어",
+      "수능 필수",
+      "고3"
+    ],
+    "frequency": 3,
+    "audioUrl": null
+  },
+  {
+    "id": "w041",
+    "word": "appointment",
+    "pronunciation": "/əˈpɔɪntmənt/",
+    "ipa": "əˈpɔɪntmənt",
+    "partOfSpeech": "명사",
+    "meanings": [
+      "예약",
+      "약속"
+    ],
+    "examples": [
+      {
+        "sentence": "My appointment with the adviser starts at two.",
+        "translation": "상담사와의 약속은 두 시에 시작한다.",
+        "answer": "appointment"
+      }
+    ],
+    "synonyms": [
+      "meeting"
+    ],
+    "antonyms": [],
+    "difficulty": 2,
+    "categories": [
+      "TOEIC",
+      "비즈니스 영어",
+      "Part 5",
+      "Part 7",
+      "비즈니스 어휘",
+      "TOEIC 600"
+    ],
+    "frequency": 4,
+    "audioUrl": null
+  },
+  {
+    "id": "w042",
+    "word": "approve",
+    "pronunciation": "/əˈpruːv/",
+    "ipa": "əˈpruːv",
+    "partOfSpeech": "동사",
+    "meanings": [
+      "승인하다"
+    ],
+    "examples": [
+      {
+        "sentence": "The manager will approve the travel request today.",
+        "translation": "관리자는 오늘 출장 요청을 승인할 것이다.",
+        "answer": "approve"
+      }
+    ],
+    "synonyms": [
+      "authorize"
+    ],
+    "antonyms": [
+      "reject"
+    ],
+    "difficulty": 3,
+    "categories": [
+      "TOEIC",
+      "비즈니스 영어",
+      "Part 5",
+      "Part 7",
+      "비즈니스 어휘",
+      "TOEIC 700"
+    ],
+    "frequency": 3,
+    "audioUrl": null
+  },
+  {
+    "id": "w043",
+    "word": "arrange",
+    "pronunciation": "/əˈreɪndʒ/",
+    "ipa": "əˈreɪndʒ",
+    "partOfSpeech": "동사",
+    "meanings": [
+      "준비하다",
+      "정리하다"
+    ],
+    "examples": [
+      {
+        "sentence": "We will arrange a meeting with the new supplier.",
+        "translation": "우리는 새 공급업체와 회의를 준비할 것이다.",
+        "answer": "arrange"
+      }
+    ],
+    "synonyms": [
+      "organize"
+    ],
+    "antonyms": [],
+    "difficulty": 2,
+    "categories": [
+      "TOEIC",
+      "비즈니스 영어",
+      "Part 5",
+      "Part 7",
+      "비즈니스 어휘",
+      "TOEIC 600"
+    ],
+    "frequency": 4,
+    "audioUrl": null
+  },
+  {
+    "id": "w044",
+    "word": "attend",
+    "pronunciation": "/əˈtend/",
+    "ipa": "əˈtend",
+    "partOfSpeech": "동사",
+    "meanings": [
+      "참석하다"
+    ],
+    "examples": [
+      {
+        "sentence": "Ten employees will attend the safety workshop.",
+        "translation": "직원 열 명이 안전 워크숍에 참석할 것이다.",
+        "answer": "attend"
+      }
+    ],
+    "synonyms": [
+      "join"
+    ],
+    "antonyms": [
+      "miss"
+    ],
+    "difficulty": 2,
+    "categories": [
+      "TOEIC",
+      "비즈니스 영어",
+      "Part 5",
+      "Part 7",
+      "비즈니스 어휘",
+      "TOEIC 600"
+    ],
+    "frequency": 4,
+    "audioUrl": null
+  },
+  {
+    "id": "w045",
+    "word": "available",
+    "pronunciation": "/əˈveɪləbəl/",
+    "ipa": "əˈveɪləbəl",
+    "partOfSpeech": "형용사",
+    "meanings": [
+      "이용 가능한"
+    ],
+    "examples": [
+      {
+        "sentence": "A smaller meeting room is available after lunch.",
+        "translation": "점심 후에는 더 작은 회의실을 이용할 수 있다.",
+        "answer": "available"
+      }
+    ],
+    "synonyms": [
+      "accessible"
+    ],
+    "antonyms": [
+      "unavailable"
+    ],
+    "difficulty": 2,
+    "categories": [
+      "TOEIC",
+      "비즈니스 영어",
+      "Part 5",
+      "Part 7",
+      "비즈니스 어휘",
+      "TOEIC 600"
+    ],
+    "frequency": 4,
+    "audioUrl": null
+  },
+  {
+    "id": "w046",
+    "word": "budget",
+    "pronunciation": "/ˈbʌdʒɪt/",
+    "ipa": "ˈbʌdʒɪt",
+    "partOfSpeech": "명사",
+    "meanings": [
+      "예산"
+    ],
+    "examples": [
+      {
+        "sentence": "Our budget includes the cost of training.",
+        "translation": "우리 예산에는 교육 비용이 포함된다.",
+        "answer": "budget"
+      }
+    ],
+    "synonyms": [
+      "allowance"
+    ],
+    "antonyms": [],
+    "difficulty": 2,
+    "categories": [
+      "TOEIC",
+      "비즈니스 영어",
+      "Part 5",
+      "Part 7",
+      "비즈니스 어휘",
+      "TOEIC 600"
+    ],
+    "frequency": 4,
+    "audioUrl": null
+  },
+  {
+    "id": "w047",
+    "word": "colleague",
+    "pronunciation": "/ˈkɑːliːɡ/",
+    "ipa": "ˈkɑːliːɡ",
+    "partOfSpeech": "명사",
+    "meanings": [
+      "동료"
+    ],
+    "examples": [
+      {
+        "sentence": "A colleague helped me prepare the presentation.",
+        "translation": "동료 한 명이 내 발표 준비를 도와주었다.",
+        "answer": "colleague"
+      }
+    ],
+    "synonyms": [
+      "coworker"
+    ],
+    "antonyms": [],
+    "difficulty": 2,
+    "categories": [
+      "TOEIC",
+      "비즈니스 영어",
+      "Part 5",
+      "Part 7",
+      "비즈니스 어휘",
+      "TOEIC 600"
+    ],
+    "frequency": 4,
+    "audioUrl": null
+  },
+  {
+    "id": "w048",
+    "word": "confirm",
+    "pronunciation": "/kənˈfɜːrm/",
+    "ipa": "kənˈfɜːrm",
+    "partOfSpeech": "동사",
+    "meanings": [
+      "확인하다"
+    ],
+    "examples": [
+      {
+        "sentence": "Please confirm your delivery address.",
+        "translation": "배송 주소를 확인해 주세요.",
+        "answer": "confirm"
+      }
+    ],
+    "synonyms": [
+      "verify"
+    ],
+    "antonyms": [],
+    "difficulty": 2,
+    "categories": [
+      "TOEIC",
+      "비즈니스 영어",
+      "Part 5",
+      "Part 7",
+      "비즈니스 어휘",
+      "TOEIC 600"
+    ],
+    "frequency": 4,
+    "audioUrl": null
+  },
+  {
+    "id": "w049",
+    "word": "contract",
+    "pronunciation": "/ˈkɑːntrækt/",
+    "ipa": "ˈkɑːntrækt",
+    "partOfSpeech": "명사",
+    "meanings": [
+      "계약"
+    ],
+    "examples": [
+      {
+        "sentence": "The contract includes a one-year warranty.",
+        "translation": "그 계약에는 일 년 보증이 포함된다.",
+        "answer": "contract"
+      }
+    ],
+    "synonyms": [
+      "agreement"
+    ],
+    "antonyms": [],
+    "difficulty": 3,
+    "categories": [
+      "TOEIC",
+      "비즈니스 영어",
+      "Part 5",
+      "Part 7",
+      "비즈니스 어휘",
+      "TOEIC 700"
+    ],
+    "frequency": 3,
+    "audioUrl": null
+  },
+  {
+    "id": "w050",
+    "word": "customer",
+    "pronunciation": "/ˈkʌstəmər/",
+    "ipa": "ˈkʌstəmər",
+    "partOfSpeech": "명사",
+    "meanings": [
+      "고객"
+    ],
+    "examples": [
+      {
+        "sentence": "The customer asked for a digital receipt.",
+        "translation": "고객은 전자 영수증을 요청했다.",
+        "answer": "customer"
+      }
+    ],
+    "synonyms": [
+      "client"
+    ],
+    "antonyms": [],
+    "difficulty": 1,
+    "categories": [
+      "TOEIC",
+      "비즈니스 영어",
+      "Part 5",
+      "Part 7",
+      "비즈니스 어휘",
+      "TOEIC 500"
+    ],
+    "frequency": 5,
+    "audioUrl": null
+  },
+  {
+    "id": "w051",
+    "word": "deadline",
+    "pronunciation": "/ˈdedlaɪn/",
+    "ipa": "ˈdedlaɪn",
+    "partOfSpeech": "명사",
+    "meanings": [
+      "마감일"
+    ],
+    "examples": [
+      {
+        "sentence": "The deadline for applications is next Monday.",
+        "translation": "지원서 마감일은 다음 주 월요일이다.",
+        "answer": "deadline"
+      }
+    ],
+    "synonyms": [
+      "due date"
+    ],
+    "antonyms": [],
+    "difficulty": 2,
+    "categories": [
+      "TOEIC",
+      "비즈니스 영어",
+      "Part 5",
+      "Part 7",
+      "비즈니스 어휘",
+      "TOEIC 600"
+    ],
+    "frequency": 4,
+    "audioUrl": null
+  },
+  {
+    "id": "w052",
+    "word": "department",
+    "pronunciation": "/dɪˈpɑːrtmənt/",
+    "ipa": "dɪˈpɑːrtmənt",
+    "partOfSpeech": "명사",
+    "meanings": [
+      "부서"
+    ],
+    "examples": [
+      {
+        "sentence": "Our department is moving to the third floor.",
+        "translation": "우리 부서는 삼 층으로 이동한다.",
+        "answer": "department"
+      }
+    ],
+    "synonyms": [
+      "division"
+    ],
+    "antonyms": [],
+    "difficulty": 2,
+    "categories": [
+      "TOEIC",
+      "비즈니스 영어",
+      "Part 5",
+      "Part 7",
+      "비즈니스 어휘",
+      "TOEIC 600"
+    ],
+    "frequency": 4,
+    "audioUrl": null
+  },
+  {
+    "id": "w053",
+    "word": "discount",
+    "pronunciation": "/ˈdɪskaʊnt/",
+    "ipa": "ˈdɪskaʊnt",
+    "partOfSpeech": "명사",
+    "meanings": [
+      "할인"
+    ],
+    "examples": [
+      {
+        "sentence": "Students receive a discount on monthly passes.",
+        "translation": "학생들은 월 정기권을 할인받는다.",
+        "answer": "discount"
+      }
+    ],
+    "synonyms": [
+      "reduction"
+    ],
+    "antonyms": [],
+    "difficulty": 1,
+    "categories": [
+      "TOEIC",
+      "비즈니스 영어",
+      "Part 5",
+      "Part 7",
+      "비즈니스 어휘",
+      "TOEIC 500"
+    ],
+    "frequency": 5,
+    "audioUrl": null
+  },
+  {
+    "id": "w054",
+    "word": "employee",
+    "pronunciation": "/ɪmˈplɔɪiː/",
+    "ipa": "ɪmˈplɔɪiː",
+    "partOfSpeech": "명사",
+    "meanings": [
+      "직원"
+    ],
+    "examples": [
+      {
+        "sentence": "Each employee receives a security card.",
+        "translation": "각 직원은 보안 카드를 받는다.",
+        "answer": "employee"
+      }
+    ],
+    "synonyms": [
+      "worker"
+    ],
+    "antonyms": [
+      "employer"
+    ],
+    "difficulty": 2,
+    "categories": [
+      "TOEIC",
+      "비즈니스 영어",
+      "Part 5",
+      "Part 7",
+      "비즈니스 어휘",
+      "TOEIC 600"
+    ],
+    "frequency": 4,
+    "audioUrl": null
+  },
+  {
+    "id": "w055",
+    "word": "equipment",
+    "pronunciation": "/ɪˈkwɪpmənt/",
+    "ipa": "ɪˈkwɪpmənt",
+    "partOfSpeech": "명사",
+    "meanings": [
+      "장비"
+    ],
+    "examples": [
+      {
+        "sentence": "Store the equipment in a dry room.",
+        "translation": "장비를 건조한 방에 보관하세요.",
+        "answer": "equipment"
+      }
+    ],
+    "synonyms": [
+      "gear"
+    ],
+    "antonyms": [],
+    "difficulty": 2,
+    "categories": [
+      "TOEIC",
+      "비즈니스 영어",
+      "Part 5",
+      "Part 7",
+      "비즈니스 어휘",
+      "TOEIC 600"
+    ],
+    "frequency": 4,
+    "audioUrl": null
+  },
+  {
+    "id": "w056",
+    "word": "expense",
+    "pronunciation": "/ɪkˈspens/",
+    "ipa": "ɪkˈspens",
+    "partOfSpeech": "명사",
+    "meanings": [
+      "비용"
+    ],
+    "examples": [
+      {
+        "sentence": "Transport is our largest monthly expense.",
+        "translation": "교통비는 우리의 가장 큰 월간 비용이다.",
+        "answer": "expense"
+      }
+    ],
+    "synonyms": [
+      "cost"
+    ],
+    "antonyms": [],
+    "difficulty": 3,
+    "categories": [
+      "TOEIC",
+      "비즈니스 영어",
+      "Part 5",
+      "Part 7",
+      "비즈니스 어휘",
+      "TOEIC 700"
+    ],
+    "frequency": 3,
+    "audioUrl": null
+  },
+  {
+    "id": "w057",
+    "word": "inquiry",
+    "pronunciation": "/ˈɪnkwəri/",
+    "ipa": "ˈɪnkwəri",
+    "partOfSpeech": "명사",
+    "meanings": [
+      "문의"
+    ],
+    "examples": [
+      {
+        "sentence": "We received an inquiry about group bookings.",
+        "translation": "우리는 단체 예약에 대한 문의를 받았다.",
+        "answer": "inquiry"
+      }
+    ],
+    "synonyms": [
+      "question"
+    ],
+    "antonyms": [],
+    "difficulty": 3,
+    "categories": [
+      "TOEIC",
+      "비즈니스 영어",
+      "Part 5",
+      "Part 7",
+      "비즈니스 어휘",
+      "TOEIC 700"
+    ],
+    "frequency": 3,
+    "audioUrl": null
+  },
+  {
+    "id": "w058",
+    "word": "invoice",
+    "pronunciation": "/ˈɪnvɔɪs/",
+    "ipa": "ˈɪnvɔɪs",
+    "partOfSpeech": "명사",
+    "meanings": [
+      "청구서"
+    ],
+    "examples": [
+      {
+        "sentence": "The invoice lists all replacement parts.",
+        "translation": "그 청구서에는 모든 교체 부품이 적혀 있다.",
+        "answer": "invoice"
+      }
+    ],
+    "synonyms": [
+      "bill"
+    ],
+    "antonyms": [],
+    "difficulty": 3,
+    "categories": [
+      "TOEIC",
+      "비즈니스 영어",
+      "Part 5",
+      "Part 7",
+      "비즈니스 어휘",
+      "TOEIC 700"
+    ],
+    "frequency": 3,
+    "audioUrl": null
+  },
+  {
+    "id": "w059",
+    "word": "negotiate",
+    "pronunciation": "/nɪˈɡoʊʃieɪt/",
+    "ipa": "nɪˈɡoʊʃieɪt",
+    "partOfSpeech": "동사",
+    "meanings": [
+      "협상하다"
+    ],
+    "examples": [
+      {
+        "sentence": "Both teams will negotiate the delivery schedule.",
+        "translation": "두 팀은 배송 일정을 협상할 것이다.",
+        "answer": "negotiate"
+      }
+    ],
+    "synonyms": [
+      "bargain"
+    ],
+    "antonyms": [],
+    "difficulty": 4,
+    "categories": [
+      "TOEIC",
+      "비즈니스 영어",
+      "Part 5",
+      "Part 7",
+      "비즈니스 어휘",
+      "TOEIC 800"
+    ],
+    "frequency": 2,
+    "audioUrl": null
+  },
+  {
+    "id": "w060",
+    "word": "notify",
+    "pronunciation": "/ˈnoʊtɪfaɪ/",
+    "ipa": "ˈnoʊtɪfaɪ",
+    "partOfSpeech": "동사",
+    "meanings": [
+      "알리다"
+    ],
+    "examples": [
+      {
+        "sentence": "Please notify us if your phone number changes.",
+        "translation": "전화번호가 바뀌면 알려 주세요.",
+        "answer": "notify"
+      }
+    ],
+    "synonyms": [
+      "inform"
+    ],
+    "antonyms": [],
+    "difficulty": 3,
+    "categories": [
+      "TOEIC",
+      "비즈니스 영어",
+      "Part 5",
+      "Part 7",
+      "비즈니스 어휘",
+      "TOEIC 700"
+    ],
+    "frequency": 3,
+    "audioUrl": null
+  },
+  {
+    "id": "w061",
+    "word": "purchase",
+    "pronunciation": "/ˈpɜːrtʃəs/",
+    "ipa": "ˈpɜːrtʃəs",
+    "partOfSpeech": "동사",
+    "meanings": [
+      "구매하다"
+    ],
+    "examples": [
+      {
+        "sentence": "You can purchase tickets at the front desk.",
+        "translation": "안내 데스크에서 표를 구매할 수 있다.",
+        "answer": "purchase"
+      }
+    ],
+    "synonyms": [
+      "buy"
+    ],
+    "antonyms": [
+      "sell"
+    ],
+    "difficulty": 2,
+    "categories": [
+      "TOEIC",
+      "비즈니스 영어",
+      "Part 5",
+      "Part 7",
+      "비즈니스 어휘",
+      "TOEIC 600"
+    ],
+    "frequency": 4,
+    "audioUrl": null
+  },
+  {
+    "id": "w062",
+    "word": "receipt",
+    "pronunciation": "/rɪˈsiːt/",
+    "ipa": "rɪˈsiːt",
+    "partOfSpeech": "명사",
+    "meanings": [
+      "영수증"
+    ],
+    "examples": [
+      {
+        "sentence": "Keep the receipt until the return period ends.",
+        "translation": "반품 기간이 끝날 때까지 영수증을 보관하세요.",
+        "answer": "receipt"
+      }
+    ],
+    "synonyms": [
+      "proof of purchase"
+    ],
+    "antonyms": [],
+    "difficulty": 2,
+    "categories": [
+      "TOEIC",
+      "비즈니스 영어",
+      "Part 5",
+      "Part 7",
+      "비즈니스 어휘",
+      "TOEIC 600"
+    ],
+    "frequency": 4,
+    "audioUrl": null
+  },
+  {
+    "id": "w063",
+    "word": "refund",
+    "pronunciation": "/ˈriːfʌnd/",
+    "ipa": "ˈriːfʌnd",
+    "partOfSpeech": "명사",
+    "meanings": [
+      "환불"
+    ],
+    "examples": [
+      {
+        "sentence": "She requested a refund for the damaged lamp.",
+        "translation": "그녀는 파손된 램프의 환불을 요청했다.",
+        "answer": "refund"
+      }
+    ],
+    "synonyms": [
+      "repayment"
+    ],
+    "antonyms": [],
+    "difficulty": 2,
+    "categories": [
+      "TOEIC",
+      "비즈니스 영어",
+      "Part 5",
+      "Part 7",
+      "비즈니스 어휘",
+      "TOEIC 600"
+    ],
+    "frequency": 4,
+    "audioUrl": null
+  },
+  {
+    "id": "w064",
+    "word": "register",
+    "pronunciation": "/ˈredʒɪstər/",
+    "ipa": "ˈredʒɪstər",
+    "partOfSpeech": "동사",
+    "meanings": [
+      "등록하다"
+    ],
+    "examples": [
+      {
+        "sentence": "Please register for the seminar online.",
+        "translation": "온라인으로 세미나에 등록해 주세요.",
+        "answer": "register"
+      }
+    ],
+    "synonyms": [
+      "enroll"
+    ],
+    "antonyms": [],
+    "difficulty": 2,
+    "categories": [
+      "TOEIC",
+      "비즈니스 영어",
+      "Part 5",
+      "Part 7",
+      "비즈니스 어휘",
+      "TOEIC 600"
+    ],
+    "frequency": 4,
+    "audioUrl": null
+  },
+  {
+    "id": "w065",
+    "word": "reservation",
+    "pronunciation": "/ˌrezərˈveɪʃən/",
+    "ipa": "ˌrezərˈveɪʃən",
+    "partOfSpeech": "명사",
+    "meanings": [
+      "예약"
+    ],
+    "examples": [
+      {
+        "sentence": "Our reservation includes breakfast for two.",
+        "translation": "우리 예약에는 두 명의 아침 식사가 포함된다.",
+        "answer": "reservation"
+      }
+    ],
+    "synonyms": [
+      "booking"
+    ],
+    "antonyms": [],
+    "difficulty": 2,
+    "categories": [
+      "TOEIC",
+      "비즈니스 영어",
+      "Part 5",
+      "Part 7",
+      "비즈니스 어휘",
+      "TOEIC 600"
+    ],
+    "frequency": 4,
+    "audioUrl": null
+  },
+  {
+    "id": "w066",
+    "word": "reschedule",
+    "pronunciation": "/ˌriːˈskedʒuːl/",
+    "ipa": "ˌriːˈskedʒuːl",
+    "partOfSpeech": "동사",
+    "meanings": [
+      "일정을 변경하다"
+    ],
+    "examples": [
+      {
+        "sentence": "We need to reschedule the outdoor event.",
+        "translation": "우리는 야외 행사의 일정을 변경해야 한다.",
+        "answer": "reschedule"
+      }
+    ],
+    "synonyms": [
+      "rearrange"
+    ],
+    "antonyms": [],
+    "difficulty": 3,
+    "categories": [
+      "TOEIC",
+      "비즈니스 영어",
+      "Part 5",
+      "Part 7",
+      "비즈니스 어휘",
+      "TOEIC 700"
+    ],
+    "frequency": 3,
+    "audioUrl": null
+  },
+  {
+    "id": "w067",
+    "word": "revenue",
+    "pronunciation": "/ˈrevənuː/",
+    "ipa": "ˈrevənuː",
+    "partOfSpeech": "명사",
+    "meanings": [
+      "수익",
+      "매출"
+    ],
+    "examples": [
+      {
+        "sentence": "Online sales increased the store's revenue.",
+        "translation": "온라인 판매가 가게의 매출을 늘렸다.",
+        "answer": "revenue"
+      }
+    ],
+    "synonyms": [
+      "income"
+    ],
+    "antonyms": [],
+    "difficulty": 4,
+    "categories": [
+      "TOEIC",
+      "비즈니스 영어",
+      "Part 5",
+      "Part 7",
+      "비즈니스 어휘",
+      "TOEIC 800"
+    ],
+    "frequency": 2,
+    "audioUrl": null
+  },
+  {
+    "id": "w068",
+    "word": "shipment",
+    "pronunciation": "/ˈʃɪpmənt/",
+    "ipa": "ˈʃɪpmənt",
+    "partOfSpeech": "명사",
+    "meanings": [
+      "배송 물품"
+    ],
+    "examples": [
+      {
+        "sentence": "The shipment arrived before the shop opened.",
+        "translation": "배송 물품은 가게가 문을 열기 전에 도착했다.",
+        "answer": "shipment"
+      }
+    ],
+    "synonyms": [
+      "consignment"
+    ],
+    "antonyms": [],
+    "difficulty": 3,
+    "categories": [
+      "TOEIC",
+      "비즈니스 영어",
+      "Part 5",
+      "Part 7",
+      "비즈니스 어휘",
+      "TOEIC 700"
+    ],
+    "frequency": 3,
+    "audioUrl": null
+  },
+  {
+    "id": "w069",
+    "word": "supplier",
+    "pronunciation": "/səˈplaɪər/",
+    "ipa": "səˈplaɪər",
+    "partOfSpeech": "명사",
+    "meanings": [
+      "공급업체"
+    ],
+    "examples": [
+      {
+        "sentence": "The supplier offers reusable packaging.",
+        "translation": "그 공급업체는 재사용 가능한 포장을 제공한다.",
+        "answer": "supplier"
+      }
+    ],
+    "synonyms": [
+      "provider"
+    ],
+    "antonyms": [],
+    "difficulty": 3,
+    "categories": [
+      "TOEIC",
+      "비즈니스 영어",
+      "Part 5",
+      "Part 7",
+      "비즈니스 어휘",
+      "TOEIC 700"
+    ],
+    "frequency": 3,
+    "audioUrl": null
+  },
+  {
+    "id": "w070",
+    "word": "warranty",
+    "pronunciation": "/ˈwɔːrənti/",
+    "ipa": "ˈwɔːrənti",
+    "partOfSpeech": "명사",
+    "meanings": [
+      "보증"
+    ],
+    "examples": [
+      {
+        "sentence": "The warranty covers repairs for two years.",
+        "translation": "그 보증은 이 년 동안의 수리를 포함한다.",
+        "answer": "warranty"
+      }
+    ],
+    "synonyms": [
+      "guarantee"
+    ],
+    "antonyms": [],
+    "difficulty": 3,
+    "categories": [
+      "TOEIC",
+      "비즈니스 영어",
+      "Part 5",
+      "Part 7",
+      "비즈니스 어휘",
+      "TOEIC 700"
+    ],
+    "frequency": 3,
+    "audioUrl": null
+  },
+  {
+    "id": "w071",
+    "word": "abstract",
+    "pronunciation": "/ˈæbstrækt/",
+    "ipa": "ˈæbstrækt",
+    "partOfSpeech": "형용사",
+    "meanings": [
+      "추상적인"
+    ],
+    "examples": [
+      {
+        "sentence": "The teacher used pictures to explain an abstract idea.",
+        "translation": "교사는 추상적인 생각을 설명하기 위해 그림을 사용했다.",
+        "answer": "abstract"
+      }
+    ],
+    "synonyms": [
+      "conceptual"
+    ],
+    "antonyms": [
+      "concrete"
+    ],
+    "difficulty": 4,
+    "categories": [
+      "TOEFL",
+      "IELTS",
+      "Academic Vocabulary",
+      "중급"
+    ],
+    "frequency": 2,
+    "audioUrl": null
+  },
+  {
+    "id": "w072",
+    "word": "accumulate",
+    "pronunciation": "/əˈkjuːmjəleɪt/",
+    "ipa": "əˈkjuːmjəleɪt",
+    "partOfSpeech": "동사",
+    "meanings": [
+      "축적되다"
+    ],
+    "examples": [
+      {
+        "sentence": "Tiny particles accumulate on the filter over time.",
+        "translation": "작은 입자들은 시간이 지나면서 필터에 축적된다.",
+        "answer": "accumulate"
+      }
+    ],
+    "synonyms": [
+      "collect"
+    ],
+    "antonyms": [
+      "disperse"
+    ],
+    "difficulty": 4,
+    "categories": [
+      "TOEFL",
+      "IELTS",
+      "Academic Vocabulary",
+      "중급"
+    ],
+    "frequency": 2,
+    "audioUrl": null
+  },
+  {
+    "id": "w073",
+    "word": "assumption",
+    "pronunciation": "/əˈsʌmpʃən/",
+    "ipa": "əˈsʌmpʃən",
+    "partOfSpeech": "명사",
+    "meanings": [
+      "가정"
+    ],
+    "examples": [
+      {
+        "sentence": "The experiment tested our assumption about temperature.",
+        "translation": "그 실험은 온도에 대한 우리의 가정을 검증했다.",
+        "answer": "assumption"
+      }
+    ],
+    "synonyms": [
+      "supposition"
+    ],
+    "antonyms": [],
+    "difficulty": 4,
+    "categories": [
+      "TOEFL",
+      "IELTS",
+      "Academic Vocabulary",
+      "중급"
+    ],
+    "frequency": 2,
+    "audioUrl": null
+  },
+  {
+    "id": "w074",
+    "word": "biodiversity",
+    "pronunciation": "/ˌbaɪoʊdaɪˈvɜːrsəti/",
+    "ipa": "ˌbaɪoʊdaɪˈvɜːrsəti",
+    "partOfSpeech": "명사",
+    "meanings": [
+      "생물 다양성"
+    ],
+    "examples": [
+      {
+        "sentence": "Healthy wetlands support remarkable biodiversity.",
+        "translation": "건강한 습지는 놀라운 생물 다양성을 뒷받침한다.",
+        "answer": "biodiversity"
+      }
+    ],
+    "synonyms": [
+      "biological diversity"
+    ],
+    "antonyms": [],
+    "difficulty": 5,
+    "categories": [
+      "TOEFL",
+      "IELTS",
+      "Academic Vocabulary",
+      "고급"
+    ],
+    "frequency": 1,
+    "audioUrl": null
+  },
+  {
+    "id": "w075",
+    "word": "chemical",
+    "pronunciation": "/ˈkemɪkəl/",
+    "ipa": "ˈkemɪkəl",
+    "partOfSpeech": "형용사",
+    "meanings": [
+      "화학의"
+    ],
+    "examples": [
+      {
+        "sentence": "The students measured a chemical reaction in the lab.",
+        "translation": "학생들은 실험실에서 화학 반응을 측정했다.",
+        "answer": "chemical"
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 3,
+    "categories": [
+      "TOEFL",
+      "IELTS",
+      "Academic Vocabulary",
+      "기초"
+    ],
+    "frequency": 3,
+    "audioUrl": null
+  },
+  {
+    "id": "w076",
+    "word": "coherent",
+    "pronunciation": "/koʊˈhɪrənt/",
+    "ipa": "koʊˈhɪrənt",
+    "partOfSpeech": "형용사",
+    "meanings": [
+      "일관성 있는"
+    ],
+    "examples": [
+      {
+        "sentence": "Her report presents a coherent explanation of the findings.",
+        "translation": "그녀의 보고서는 연구 결과에 대한 일관성 있는 설명을 제시한다.",
+        "answer": "coherent"
+      }
+    ],
+    "synonyms": [
+      "consistent"
+    ],
+    "antonyms": [
+      "incoherent"
+    ],
+    "difficulty": 5,
+    "categories": [
+      "TOEFL",
+      "IELTS",
+      "Academic Vocabulary",
+      "고급"
+    ],
+    "frequency": 1,
+    "audioUrl": null
+  },
+  {
+    "id": "w077",
+    "word": "conduct",
+    "pronunciation": "/kənˈdʌkt/",
+    "ipa": "kənˈdʌkt",
+    "partOfSpeech": "동사",
+    "meanings": [
+      "수행하다"
+    ],
+    "examples": [
+      {
+        "sentence": "Researchers conduct a survey every autumn.",
+        "translation": "연구자들은 매년 가을 설문 조사를 수행한다.",
+        "answer": "conduct"
+      }
+    ],
+    "synonyms": [
+      "perform"
+    ],
+    "antonyms": [],
+    "difficulty": 3,
+    "categories": [
+      "TOEFL",
+      "IELTS",
+      "Academic Vocabulary",
+      "기초"
+    ],
+    "frequency": 3,
+    "audioUrl": null
+  },
+  {
+    "id": "w078",
+    "word": "consequence",
+    "pronunciation": "/ˈkɑːnsɪkwens/",
+    "ipa": "ˈkɑːnsɪkwens",
+    "partOfSpeech": "명사",
+    "meanings": [
+      "결과"
+    ],
+    "examples": [
+      {
+        "sentence": "Soil erosion is one consequence of removing trees.",
+        "translation": "토양 침식은 나무를 제거한 결과 중 하나이다.",
+        "answer": "consequence"
+      }
+    ],
+    "synonyms": [
+      "result"
+    ],
+    "antonyms": [],
+    "difficulty": 4,
+    "categories": [
+      "TOEFL",
+      "IELTS",
+      "Academic Vocabulary",
+      "중급"
+    ],
+    "frequency": 2,
+    "audioUrl": null
+  },
+  {
+    "id": "w079",
+    "word": "conserve",
+    "pronunciation": "/kənˈsɜːrv/",
+    "ipa": "kənˈsɜːrv",
+    "partOfSpeech": "동사",
+    "meanings": [
+      "보존하다"
+    ],
+    "examples": [
+      {
+        "sentence": "The city uses rainwater to conserve fresh water.",
+        "translation": "그 도시는 담수를 보존하기 위해 빗물을 사용한다.",
+        "answer": "conserve"
+      }
+    ],
+    "synonyms": [
+      "preserve"
+    ],
+    "antonyms": [
+      "waste"
+    ],
+    "difficulty": 4,
+    "categories": [
+      "TOEFL",
+      "IELTS",
+      "Academic Vocabulary",
+      "중급"
+    ],
+    "frequency": 2,
+    "audioUrl": null
+  },
+  {
+    "id": "w080",
+    "word": "controversy",
+    "pronunciation": "/ˈkɑːntrəvɜːrsi/",
+    "ipa": "ˈkɑːntrəvɜːrsi",
+    "partOfSpeech": "명사",
+    "meanings": [
+      "논란"
+    ],
+    "examples": [
+      {
+        "sentence": "The proposal sparked controversy among residents.",
+        "translation": "그 제안은 주민들 사이에서 논란을 일으켰다.",
+        "answer": "controversy"
+      }
+    ],
+    "synonyms": [
+      "dispute"
+    ],
+    "antonyms": [
+      "agreement"
+    ],
+    "difficulty": 5,
+    "categories": [
+      "TOEFL",
+      "IELTS",
+      "Academic Vocabulary",
+      "고급"
+    ],
+    "frequency": 1,
+    "audioUrl": null
+  },
+  {
+    "id": "w081",
+    "word": "correlation",
+    "pronunciation": "/ˌkɔːrəˈleɪʃən/",
+    "ipa": "ˌkɔːrəˈleɪʃən",
+    "partOfSpeech": "명사",
+    "meanings": [
+      "상관관계"
+    ],
+    "examples": [
+      {
+        "sentence": "The chart shows a correlation between rainfall and crop growth.",
+        "translation": "그 도표는 강우량과 작물 성장 사이의 상관관계를 보여 준다.",
+        "answer": "correlation"
+      }
+    ],
+    "synonyms": [
+      "association"
+    ],
+    "antonyms": [],
+    "difficulty": 5,
+    "categories": [
+      "TOEFL",
+      "IELTS",
+      "Academic Vocabulary",
+      "고급"
+    ],
+    "frequency": 1,
+    "audioUrl": null
+  },
+  {
+    "id": "w082",
+    "word": "derive",
+    "pronunciation": "/dɪˈraɪv/",
+    "ipa": "dɪˈraɪv",
+    "partOfSpeech": "동사",
+    "meanings": [
+      "얻다",
+      "유래하다"
+    ],
+    "examples": [
+      {
+        "sentence": "Many medicines derive their names from Latin words.",
+        "translation": "많은 약은 라틴어 단어에서 이름을 얻는다.",
+        "answer": "derive"
+      }
+    ],
+    "synonyms": [
+      "obtain"
+    ],
+    "antonyms": [],
+    "difficulty": 4,
+    "categories": [
+      "TOEFL",
+      "IELTS",
+      "Academic Vocabulary",
+      "중급"
+    ],
+    "frequency": 2,
+    "audioUrl": null
+  },
+  {
+    "id": "w083",
+    "word": "distribute",
+    "pronunciation": "/dɪˈstrɪbjuːt/",
+    "ipa": "dɪˈstrɪbjuːt",
+    "partOfSpeech": "동사",
+    "meanings": [
+      "분배하다"
+    ],
+    "examples": [
+      {
+        "sentence": "The pipes distribute warm water throughout the building.",
+        "translation": "그 배관은 건물 전체에 따뜻한 물을 분배한다.",
+        "answer": "distribute"
+      }
+    ],
+    "synonyms": [
+      "allocate"
+    ],
+    "antonyms": [
+      "collect"
+    ],
+    "difficulty": 3,
+    "categories": [
+      "TOEFL",
+      "IELTS",
+      "Academic Vocabulary",
+      "기초"
+    ],
+    "frequency": 3,
+    "audioUrl": null
+  },
+  {
+    "id": "w084",
+    "word": "empirical",
+    "pronunciation": "/ɪmˈpɪrɪkəl/",
+    "ipa": "ɪmˈpɪrɪkəl",
+    "partOfSpeech": "형용사",
+    "meanings": [
+      "경험적",
+      "실증적인"
+    ],
+    "examples": [
+      {
+        "sentence": "The team collected empirical data from field observations.",
+        "translation": "그 팀은 현장 관찰에서 실증적인 데이터를 수집했다.",
+        "answer": "empirical"
+      }
+    ],
+    "synonyms": [
+      "observational"
+    ],
+    "antonyms": [
+      "theoretical"
+    ],
+    "difficulty": 5,
+    "categories": [
+      "TOEFL",
+      "IELTS",
+      "Academic Vocabulary",
+      "고급"
+    ],
+    "frequency": 1,
+    "audioUrl": null
+  },
+  {
+    "id": "w085",
+    "word": "hypothesis",
+    "pronunciation": "/haɪˈpɑːθəsɪs/",
+    "ipa": "haɪˈpɑːθəsɪs",
+    "partOfSpeech": "명사",
+    "meanings": [
+      "가설"
+    ],
+    "examples": [
+      {
+        "sentence": "We need more data to test this hypothesis.",
+        "translation": "우리는 이 가설을 검증하기 위해 더 많은 데이터가 필요하다.",
+        "answer": "hypothesis"
+      }
+    ],
+    "synonyms": [
+      "proposition"
+    ],
+    "antonyms": [],
+    "difficulty": 4,
+    "categories": [
+      "TOEFL",
+      "IELTS",
+      "Academic Vocabulary",
+      "중급"
+    ],
+    "frequency": 2,
+    "audioUrl": null
+  },
+  {
+    "id": "w086",
+    "word": "indicate",
+    "pronunciation": "/ˈɪndɪkeɪt/",
+    "ipa": "ˈɪndɪkeɪt",
+    "partOfSpeech": "동사",
+    "meanings": [
+      "나타내다"
+    ],
+    "examples": [
+      {
+        "sentence": "Dark clouds often indicate approaching rain.",
+        "translation": "먹구름은 종종 다가오는 비를 나타낸다.",
+        "answer": "indicate"
+      }
+    ],
+    "synonyms": [
+      "suggest"
+    ],
+    "antonyms": [],
+    "difficulty": 3,
+    "categories": [
+      "TOEFL",
+      "IELTS",
+      "Academic Vocabulary",
+      "기초"
+    ],
+    "frequency": 3,
+    "audioUrl": null
+  },
+  {
+    "id": "w087",
+    "word": "interpret",
+    "pronunciation": "/ɪnˈtɜːrprət/",
+    "ipa": "ɪnˈtɜːrprət",
+    "partOfSpeech": "동사",
+    "meanings": [
+      "해석하다"
+    ],
+    "examples": [
+      {
+        "sentence": "Different readers may interpret the poem differently.",
+        "translation": "독자마다 그 시를 다르게 해석할 수 있다.",
+        "answer": "interpret"
+      }
+    ],
+    "synonyms": [
+      "explain"
+    ],
+    "antonyms": [],
+    "difficulty": 4,
+    "categories": [
+      "TOEFL",
+      "IELTS",
+      "Academic Vocabulary",
+      "중급"
+    ],
+    "frequency": 2,
+    "audioUrl": null
+  },
+  {
+    "id": "w088",
+    "word": "isolate",
+    "pronunciation": "/ˈaɪsəleɪt/",
+    "ipa": "ˈaɪsəleɪt",
+    "partOfSpeech": "동사",
+    "meanings": [
+      "분리하다"
+    ],
+    "examples": [
+      {
+        "sentence": "The membrane can isolate small particles from water.",
+        "translation": "그 막은 물에서 작은 입자를 분리할 수 있다.",
+        "answer": "isolate"
+      }
+    ],
+    "synonyms": [
+      "separate"
+    ],
+    "antonyms": [
+      "combine"
+    ],
+    "difficulty": 4,
+    "categories": [
+      "TOEFL",
+      "IELTS",
+      "Academic Vocabulary",
+      "중급"
+    ],
+    "frequency": 2,
+    "audioUrl": null
+  },
+  {
+    "id": "w089",
+    "word": "mechanism",
+    "pronunciation": "/ˈmekənɪzəm/",
+    "ipa": "ˈmekənɪzəm",
+    "partOfSpeech": "명사",
+    "meanings": [
+      "작동 원리",
+      "기구"
+    ],
+    "examples": [
+      {
+        "sentence": "The diagram explains the locking mechanism.",
+        "translation": "그 도식은 잠금 작동 원리를 설명한다.",
+        "answer": "mechanism"
+      }
+    ],
+    "synonyms": [
+      "system"
+    ],
+    "antonyms": [],
+    "difficulty": 4,
+    "categories": [
+      "TOEFL",
+      "IELTS",
+      "Academic Vocabulary",
+      "중급"
+    ],
+    "frequency": 2,
+    "audioUrl": null
+  },
+  {
+    "id": "w090",
+    "word": "phenomenon",
+    "pronunciation": "/fəˈnɑːmɪnən/",
+    "ipa": "fəˈnɑːmɪnən",
+    "partOfSpeech": "명사",
+    "meanings": [
+      "현상"
+    ],
+    "examples": [
+      {
+        "sentence": "The unusual light is a natural phenomenon.",
+        "translation": "그 특이한 빛은 자연 현상이다.",
+        "answer": "phenomenon"
+      }
+    ],
+    "synonyms": [
+      "occurrence"
+    ],
+    "antonyms": [],
+    "difficulty": 5,
+    "categories": [
+      "TOEFL",
+      "IELTS",
+      "Academic Vocabulary",
+      "고급"
+    ],
+    "frequency": 1,
+    "audioUrl": null
+  },
+  {
+    "id": "w091",
+    "word": "predict",
+    "pronunciation": "/prɪˈdɪkt/",
+    "ipa": "prɪˈdɪkt",
+    "partOfSpeech": "동사",
+    "meanings": [
+      "예측하다"
+    ],
+    "examples": [
+      {
+        "sentence": "This model can predict short-term changes in demand.",
+        "translation": "이 모델은 수요의 단기 변화를 예측할 수 있다.",
+        "answer": "predict"
+      }
+    ],
+    "synonyms": [
+      "forecast"
+    ],
+    "antonyms": [],
+    "difficulty": 3,
+    "categories": [
+      "TOEFL",
+      "IELTS",
+      "Academic Vocabulary",
+      "기초"
+    ],
+    "frequency": 3,
+    "audioUrl": null
+  },
+  {
+    "id": "w092",
+    "word": "proportion",
+    "pronunciation": "/prəˈpɔːrʃən/",
+    "ipa": "prəˈpɔːrʃən",
+    "partOfSpeech": "명사",
+    "meanings": [
+      "비율"
+    ],
+    "examples": [
+      {
+        "sentence": "A large proportion of the waste can be recycled.",
+        "translation": "그 쓰레기의 상당한 비율은 재활용할 수 있다.",
+        "answer": "proportion"
+      }
+    ],
+    "synonyms": [
+      "share"
+    ],
+    "antonyms": [],
+    "difficulty": 4,
+    "categories": [
+      "TOEFL",
+      "IELTS",
+      "Academic Vocabulary",
+      "중급"
+    ],
+    "frequency": 2,
+    "audioUrl": null
+  },
+  {
+    "id": "w093",
+    "word": "retain",
+    "pronunciation": "/rɪˈteɪn/",
+    "ipa": "rɪˈteɪn",
+    "partOfSpeech": "동사",
+    "meanings": [
+      "유지하다",
+      "보유하다"
+    ],
+    "examples": [
+      {
+        "sentence": "Thick walls retain heat during cold nights.",
+        "translation": "두꺼운 벽은 추운 밤 동안 열을 유지한다.",
+        "answer": "retain"
+      }
+    ],
+    "synonyms": [
+      "keep"
+    ],
+    "antonyms": [
+      "release"
+    ],
+    "difficulty": 4,
+    "categories": [
+      "TOEFL",
+      "IELTS",
+      "Academic Vocabulary",
+      "중급"
+    ],
+    "frequency": 2,
+    "audioUrl": null
+  },
+  {
+    "id": "w094",
+    "word": "sustainable",
+    "pronunciation": "/səˈsteɪnəbəl/",
+    "ipa": "səˈsteɪnəbəl",
+    "partOfSpeech": "형용사",
+    "meanings": [
+      "지속 가능한"
+    ],
+    "examples": [
+      {
+        "sentence": "The team designed a sustainable water supply system.",
+        "translation": "그 팀은 지속 가능한 급수 시스템을 설계했다.",
+        "answer": "sustainable"
+      }
+    ],
+    "synonyms": [
+      "viable"
+    ],
+    "antonyms": [
+      "unsustainable"
+    ],
+    "difficulty": 4,
+    "categories": [
+      "TOEFL",
+      "IELTS",
+      "Academic Vocabulary",
+      "중급"
+    ],
+    "frequency": 2,
+    "audioUrl": null
+  },
+  {
+    "id": "w095",
+    "word": "variable",
+    "pronunciation": "/ˈveriəbəl/",
+    "ipa": "ˈveriəbəl",
+    "partOfSpeech": "명사",
+    "meanings": [
+      "변수"
+    ],
+    "examples": [
+      {
+        "sentence": "Temperature was the only variable we changed.",
+        "translation": "온도는 우리가 바꾼 유일한 변수였다.",
+        "answer": "variable"
+      }
+    ],
+    "synonyms": [
+      "factor"
+    ],
+    "antonyms": [
+      "constant"
+    ],
+    "difficulty": 4,
+    "categories": [
+      "TOEFL",
+      "IELTS",
+      "Academic Vocabulary",
+      "중급"
+    ],
+    "frequency": 2,
+    "audioUrl": null
+  },
+  {
+    "id": "w096",
+    "word": "valid",
+    "pronunciation": "/ˈvælɪd/",
+    "ipa": "ˈvælɪd",
+    "partOfSpeech": "형용사",
+    "meanings": [
+      "타당한",
+      "유효한"
+    ],
+    "examples": [
+      {
+        "sentence": "The conclusion is valid only under these conditions.",
+        "translation": "그 결론은 이러한 조건에서만 타당하다.",
+        "answer": "valid"
+      }
+    ],
+    "synonyms": [
+      "sound"
+    ],
+    "antonyms": [
+      "invalid"
+    ],
+    "difficulty": 4,
+    "categories": [
+      "TOEFL",
+      "IELTS",
+      "Academic Vocabulary",
+      "중급"
+    ],
+    "frequency": 2,
+    "audioUrl": null
+  },
+  {
+    "id": "w097",
+    "word": "borrow",
+    "pronunciation": "/ˈbɑːroʊ/",
+    "ipa": "ˈbɑːroʊ",
+    "partOfSpeech": "동사",
+    "meanings": [
+      "빌리다"
+    ],
+    "examples": [
+      {
+        "sentence": "May I borrow your umbrella until tomorrow?",
+        "translation": "내일까지 우산을 빌려도 될까요?",
+        "answer": "borrow"
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [
+      "lend"
+    ],
+    "difficulty": 1,
+    "categories": [
+      "중학교 영어",
+      "일상 영어",
+      "OPIC"
+    ],
+    "frequency": 5,
+    "audioUrl": null
+  },
+  {
+    "id": "w098",
+    "word": "choose",
+    "pronunciation": "/tʃuːz/",
+    "ipa": "tʃuːz",
+    "partOfSpeech": "동사",
+    "meanings": [
+      "선택하다"
+    ],
+    "examples": [
+      {
+        "sentence": "You can choose a book from this shelf.",
+        "translation": "이 선반에서 책을 선택할 수 있어요.",
+        "answer": "choose"
+      }
+    ],
+    "synonyms": [
+      "select"
+    ],
+    "antonyms": [],
+    "difficulty": 1,
+    "categories": [
+      "중학교 영어",
+      "일상 영어",
+      "OPIC"
+    ],
+    "frequency": 5,
+    "audioUrl": null
+  },
+  {
+    "id": "w099",
+    "word": "delicious",
+    "pronunciation": "/dɪˈlɪʃəs/",
+    "ipa": "dɪˈlɪʃəs",
+    "partOfSpeech": "형용사",
+    "meanings": [
+      "맛있는"
+    ],
+    "examples": [
+      {
+        "sentence": "This soup is delicious with fresh bread.",
+        "translation": "이 수프는 갓 만든 빵과 먹으면 맛있다.",
+        "answer": "delicious"
+      }
+    ],
+    "synonyms": [
+      "tasty"
+    ],
+    "antonyms": [
+      "tasteless"
+    ],
+    "difficulty": 1,
+    "categories": [
+      "중학교 영어",
+      "일상 영어",
+      "OPIC"
+    ],
+    "frequency": 5,
+    "audioUrl": null
+  },
+  {
+    "id": "w100",
+    "word": "journey",
+    "pronunciation": "/ˈdʒɜːrni/",
+    "ipa": "ˈdʒɜːrni",
+    "partOfSpeech": "명사",
+    "meanings": [
+      "여행"
+    ],
+    "examples": [
+      {
+        "sentence": "Our journey began at the small train station.",
+        "translation": "우리의 여행은 작은 기차역에서 시작되었다.",
+        "answer": "journey"
+      }
+    ],
+    "synonyms": [
+      "trip"
+    ],
+    "antonyms": [],
+    "difficulty": 2,
+    "categories": [
+      "중학교 영어",
+      "일상 영어",
+      "OPIC"
+    ],
+    "frequency": 4,
+    "audioUrl": null
+  },
+  {
+    "id": "w101",
+    "word": "neighbor",
+    "pronunciation": "/ˈneɪbər/",
+    "ipa": "ˈneɪbər",
+    "partOfSpeech": "명사",
+    "meanings": [
+      "이웃"
+    ],
+    "examples": [
+      {
+        "sentence": "My neighbor grows tomatoes on her balcony.",
+        "translation": "내 이웃은 발코니에서 토마토를 기른다.",
+        "answer": "neighbor"
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "categories": [
+      "중학교 영어",
+      "일상 영어",
+      "OPIC"
+    ],
+    "frequency": 5,
+    "audioUrl": null
+  },
+  {
+    "id": "w102",
+    "word": "practice",
+    "pronunciation": "/ˈpræktɪs/",
+    "ipa": "ˈpræktɪs",
+    "partOfSpeech": "동사",
+    "meanings": [
+      "연습하다"
+    ],
+    "examples": [
+      {
+        "sentence": "I practice speaking English before breakfast.",
+        "translation": "나는 아침 식사 전에 영어 말하기를 연습한다.",
+        "answer": "practice"
+      }
+    ],
+    "synonyms": [
+      "rehearse"
+    ],
+    "antonyms": [],
+    "difficulty": 1,
+    "categories": [
+      "중학교 영어",
+      "일상 영어",
+      "OPIC"
+    ],
+    "frequency": 5,
+    "audioUrl": null
+  },
+  {
+    "id": "w103",
+    "word": "remember",
+    "pronunciation": "/rɪˈmembər/",
+    "ipa": "rɪˈmembər",
+    "partOfSpeech": "동사",
+    "meanings": [
+      "기억하다"
+    ],
+    "examples": [
+      {
+        "sentence": "I remember the song we heard on the bus.",
+        "translation": "나는 버스에서 들었던 노래를 기억한다.",
+        "answer": "remember"
+      }
+    ],
+    "synonyms": [
+      "recall"
+    ],
+    "antonyms": [
+      "forget"
+    ],
+    "difficulty": 1,
+    "categories": [
+      "중학교 영어",
+      "일상 영어",
+      "OPIC"
+    ],
+    "frequency": 5,
+    "audioUrl": null
+  },
+  {
+    "id": "w104",
+    "word": "schedule",
+    "pronunciation": "/ˈskedʒuːl/",
+    "ipa": "ˈskedʒuːl",
+    "partOfSpeech": "명사",
+    "meanings": [
+      "일정"
+    ],
+    "examples": [
+      {
+        "sentence": "My schedule leaves time for a short walk.",
+        "translation": "내 일정에는 짧게 산책할 시간이 있다.",
+        "answer": "schedule"
+      }
+    ],
+    "synonyms": [
+      "timetable"
+    ],
+    "antonyms": [],
+    "difficulty": 2,
+    "categories": [
+      "중학교 영어",
+      "일상 영어",
+      "OPIC"
+    ],
+    "frequency": 4,
+    "audioUrl": null
+  },
+  {
+    "id": "w105",
+    "word": "together",
+    "pronunciation": "/təˈɡeðər/",
+    "ipa": "təˈɡeðər",
+    "partOfSpeech": "부사",
+    "meanings": [
+      "함께"
+    ],
+    "examples": [
+      {
+        "sentence": "We prepared dinner together after the walk.",
+        "translation": "우리는 산책 후에 함께 저녁을 준비했다.",
+        "answer": "together"
+      }
+    ],
+    "synonyms": [
+      "jointly"
+    ],
+    "antonyms": [
+      "separately"
+    ],
+    "difficulty": 1,
+    "categories": [
+      "중학교 영어",
+      "일상 영어",
+      "OPIC"
+    ],
+    "frequency": 5,
+    "audioUrl": null
+  },
+  {
+    "id": "w106",
+    "word": "usually",
+    "pronunciation": "/ˈjuːʒuəli/",
+    "ipa": "ˈjuːʒuəli",
+    "partOfSpeech": "부사",
+    "meanings": [
+      "보통"
+    ],
+    "examples": [
+      {
+        "sentence": "I usually listen to a story on my way home.",
+        "translation": "나는 보통 집에 가는 길에 이야기를 듣는다.",
+        "answer": "usually"
+      }
+    ],
+    "synonyms": [
+      "normally"
+    ],
+    "antonyms": [
+      "rarely"
+    ],
+    "difficulty": 1,
+    "categories": [
+      "중학교 영어",
+      "일상 영어",
+      "OPIC"
+    ],
+    "frequency": 5,
+    "audioUrl": null
+  },
+  {
+    "id": "w107",
+    "word": "wonder",
+    "pronunciation": "/ˈwʌndər/",
+    "ipa": "ˈwʌndər",
+    "partOfSpeech": "동사",
+    "meanings": [
+      "궁금해하다"
+    ],
+    "examples": [
+      {
+        "sentence": "I wonder how birds find their way home.",
+        "translation": "나는 새들이 어떻게 집으로 가는 길을 찾는지 궁금해한다.",
+        "answer": "wonder"
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 2,
+    "categories": [
+      "중학교 영어",
+      "일상 영어",
+      "OPIC"
+    ],
+    "frequency": 4,
+    "audioUrl": null
+  },
+  {
+    "id": "w108",
+    "word": "yet",
+    "pronunciation": "/jet/",
+    "ipa": "jet",
+    "partOfSpeech": "부사",
+    "meanings": [
+      "아직"
+    ],
+    "examples": [
+      {
+        "sentence": "The library is not open yet.",
+        "translation": "도서관은 아직 열리지 않았다.",
+        "answer": "yet"
+      }
+    ],
+    "synonyms": [],
+    "antonyms": [],
+    "difficulty": 1,
+    "categories": [
+      "중학교 영어",
+      "일상 영어",
+      "OPIC"
+    ],
+    "frequency": 5,
+    "audioUrl": null
+  }
+]
