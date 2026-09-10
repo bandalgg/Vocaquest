@@ -11,7 +11,7 @@ permissions:
 jobs:
   apk:
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    timeout-minutes: 60
     env:
       CI: "1"
 
@@ -48,7 +48,31 @@ jobs:
 
       - name: Build Galaxy-compatible release APK
         working-directory: android
-        run: ./gradlew :app:assembleRelease -PreactNativeArchitectures=arm64-v8a --no-daemon --max-workers=2
+        run: ./gradlew :app:assembleRelease -PreactNativeArchitectures=arm64-v8a,x86_64 --no-daemon --max-workers=2
+
+      - name: Enable emulator acceleration
+        run: |
+          echo 'KERNEL=="kvm", GROUP="kvm", MODE="0666", OPTIONS+="static_node=kvm"' | sudo tee /etc/udev/rules.d/99-kvm4all.rules
+          sudo udevadm control --reload-rules
+          sudo udevadm trigger --name-match=kvm
+
+      - name: Launch release app on Android 16
+        uses: reactivecircus/android-emulator-runner@v2
+        with:
+          api-level: 36
+          target: google_apis
+          arch: x86_64
+          disable-animations: true
+          emulator-options: -no-window -gpu swiftshader_indirect -noaudio -no-boot-anim -camera-back none -memory 2048
+          script: bash scripts/android-smoke.sh
+
+      - name: Save launch diagnostics
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: Android-launch-diagnostics
+          path: diagnostics/
+          if-no-files-found: warn
 
       - name: Rename APK
         run: cp android/app/build/outputs/apk/release/app-release.apk VOCA-QUEST-android-arm64.apk
