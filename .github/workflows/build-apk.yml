@@ -36,7 +36,6 @@ jobs:
 
       - name: Install dependencies
         run: |
-          npm install --package-lock-only --ignore-scripts --no-audit --no-fund
           npm ci
           mkdir -p diagnostics
           cp package-lock.json diagnostics/package-lock.json
