@@ -21,6 +21,7 @@ import { StatsScreen } from "./src/screens/StatsScreen";
 import { MyScreen } from "./src/screens/MyScreen";
 import { SessionScreen } from "./src/screens/SessionScreen";
 import { FlashScreen } from "./src/screens/FlashScreen";
+import { ConversationScreen } from "./src/screens/ConversationScreen";
 import { stopSpeech } from "./src/services/audio";
 const tabs: { title: string; icon: IconName }[] = [
   { title: "홈", icon: "grid-outline" },
@@ -38,6 +39,7 @@ function Shell() {
       words: Word[];
     } | null>(null);
   const [initialized, setInitialized] = useState(false);
+  const [conversation, setConversation] = useState(false);
   useEffect(() => {
     let mounted = true;
     // Preserve the previous guest storage key without requiring an account.
@@ -55,6 +57,7 @@ function Shell() {
   }, []);
   useEffect(() => {
     const sub = BackHandler.addEventListener("hardwareBackPress", () => {
+      if (conversation) { setConversation(false); return true; }
       if (session) {
         Alert.alert("학습을 마칠까요?", "완료한 문제는 저장되었습니다.", [
           { text: "계속", style: "cancel" },
@@ -69,7 +72,7 @@ function Shell() {
       return false;
     });
     return () => sub.remove();
-  }, [session, tab]);
+  }, [session, tab, conversation]);
   function start(mode: Mode | "flash", words?: Word[]) {
     const chosen =
       words ?? todayQueue(allWords(), state.events, state.settings);
@@ -100,6 +103,8 @@ function Shell() {
       )}
       {!state.settings.onboarded ? (
         <OnboardingScreen />
+      ) : conversation ? (
+        <ConversationScreen onClose={() => setConversation(false)} />
       ) : session ? (
         session.mode === "flash" ? (
           <FlashScreen words={session.words} onClose={() => setSession(null)} />
@@ -116,7 +121,7 @@ function Shell() {
             {tab === 0 ? (
               <HomeScreen start={start} onMy={() => setTab(4)} />
             ) : tab === 1 ? (
-              <LearnScreen start={start} />
+              <LearnScreen start={start} onConversation={() => setConversation(true)} />
             ) : tab === 2 ? (
               <WordsScreen startWeak={(ws) => start("blank", ws)} />
             ) : tab === 3 ? (

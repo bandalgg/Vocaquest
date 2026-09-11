@@ -20,8 +20,10 @@ import {
 import { Mode, Word } from "../types";
 export function LearnScreen({
   start,
+  onConversation,
 }: {
   start: (m: Mode | "flash", words?: Word[]) => void;
+  onConversation: () => void;
 }) {
   const t = useTheme();
   const state = useAppStore();
@@ -41,6 +43,7 @@ export function LearnScreen({
   const deck = (queue.length ? queue : pool).slice(0, state.settings.dailyGoal);
   return (
     <Page subtitle="TRAIN YOUR MEMORY" title="나만의 학습 루틴">
+      <Card><Txt size={22} bold>루미와 회화 학습</Txt><Txt>5문장을 익히고 캐릭터와 직접 대화해 보세요.</Txt><Button title="회화학습 시작" onPress={onConversation}/></Card>
       <Card style={{ backgroundColor: t.soft }}>
         <Txt size={23} bold>
           보고 → 떠올리고 → 말하기

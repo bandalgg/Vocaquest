@@ -193,3 +193,20 @@ test("out of order sync produces same progress", () => {
     b = event({ id: "e2", sessionId: "s2", at: "2026-09-04T12:00:00.000Z" });
   assert.deepEqual(progressOf([a, b]), progressOf([b, a]));
 });
+test('yesterday mistakes return with new words even under a review backlog', () => {
+  const pool = words.filter(w => w.categories.includes('수능 영어'));
+  const now = new Date(2026, 8, 11, 9).getTime();
+  const at = new Date(2026, 8, 10, 21).toISOString();
+  const events = pool.slice(0, 12).map((w, i) => event({ id: `mix-${i}`, wordId: w.id, sessionId: `mix-${i}`, at, day: dayKey(new Date(at)), correct: false }));
+  const queue = todayQueue(pool, events, { ...DEFAULT_SETTINGS, selectedCourses: ['수능 영어'], dailyGoal: 10 }, now);
+  assert.equal(queue.length, 10);
+  assert.equal(queue.filter(w => events.some(e => e.wordId === w.id)).length, 7);
+  assert.equal(new Set(queue.map(w => w.id)).size, 10);
+});
+test('ordinary learning waits ten minutes before an incorrect word is due', () => {
+  const now = new Date(2026, 8, 11, 10).getTime();
+  const e = event({ correct: false, at: new Date(now).toISOString(), day: dayKey(new Date(now)) });
+  const settings = { ...DEFAULT_SETTINGS, selectedCourses: ['수능 영어'] };
+  assert.ok(!todayQueue(words, [e], settings, now + 60000).some(w => w.id === e.wordId));
+  assert.ok(todayQueue(words, [e], settings, now + 600001).some(w => w.id === e.wordId));
+});

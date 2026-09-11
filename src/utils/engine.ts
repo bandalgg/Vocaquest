@@ -177,9 +177,11 @@ export function todayQueue(
     w.categories.some((c) => s.selectedCourses.includes(c)),
   );
   const pool = weakOnly ? selected.filter((w) => isWeak(p[w.id])) : selected;
+  const yesterday = dayOffset(dayKey(new Date(now)), -1);
+  const yesterdayWrong = new Set(events.filter(e => e.day === yesterday && e.type !== 'flash' && (!e.correct || e.assisted || e.rating === 'unknown')).map(e => e.wordId));
   const due = pool
-    .filter((w) => p[w.id] && Date.parse(p[w.id].nextReviewAt) <= now)
-    .sort((a, b) => p[a.id].nextReviewAt.localeCompare(p[b.id].nextReviewAt));
+    .filter((w) => p[w.id] && (Date.parse(p[w.id].nextReviewAt) <= now || (yesterdayWrong.has(w.id) && isWeak(p[w.id]) && dayKey(new Date(p[w.id].lastStudiedAt)) !== dayKey(new Date(now)))))
+    .sort((a, b) => Number(yesterdayWrong.has(b.id)) - Number(yesterdayWrong.has(a.id)) || p[a.id].nextReviewAt.localeCompare(p[b.id].nextReviewAt));
   const weak = pool
     .filter((w) => isWeak(p[w.id]))
     .sort((a, b) => p[b.id].wrongCount - p[a.id].wrongCount);
@@ -190,7 +192,10 @@ export function todayQueue(
         Math.abs(a.difficulty - s.level) - Math.abs(b.difficulty - s.level),
     );
   const used = new Set<string>();
-  return [...due, ...weak, ...fresh]
+  // Ordinary daily learning respects the review time; explicit weak practice is unrestricted.
+  const review = weakOnly ? [...due, ...weak] : due;
+  const reviewSlots = fresh.length && !weakOnly && s.dailyGoal > 1 ? Math.min(review.length, Math.max(1, Math.ceil(s.dailyGoal * 0.7))) : s.dailyGoal;
+  return [...review.slice(0, reviewSlots), ...fresh, ...review.slice(reviewSlots)]
     .filter((w) => {
       if (used.has(w.id)) return false;
       used.add(w.id);
