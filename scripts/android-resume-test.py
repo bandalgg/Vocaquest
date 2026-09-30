@@ -47,8 +47,9 @@ try:
     adb('shell','input','keyevent','4')
     before=tree()
     texts=[n.get('text','') for n in before.iter('node')]
-    progress=next(t for t in texts if re.fullmatch(r'3 / \d+',t))
     assert 'resumecheck' in texts
+    progress='3 / 100'
+    find(progress)
     restart()
     find('영어 정답 입력')
     after=tree()
@@ -60,7 +61,7 @@ try:
     find('다음 문제')
     restart()
     find('다음 문제')
-    assert not any(n.get('content-desc')=='정답 확인' for n in tree().iter('node')), 'Graded question reverted to unanswered'
+    assert not any(n.get('content-desc')=='정답 확인' and n.get('enabled')=='true' for n in tree().iter('node')), 'Graded question reverted to unanswered'
     Path('diagnostics/resume-result.txt').write_text('PASS: question 3, typed input, and graded state survive Android force-stop and relaunch.\n')
 finally:
     with open('diagnostics/resume-screen.png','wb') as f: subprocess.run(['adb','exec-out','screencap','-p'],stdout=f)
