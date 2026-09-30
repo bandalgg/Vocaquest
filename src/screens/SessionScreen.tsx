@@ -1,5 +1,5 @@
 import React, { useEffect, useMemo, useRef, useState } from "react";
-import { Alert, View } from "react-native";
+import { Alert, AppState, View } from "react-native";
 import * as Crypto from "expo-crypto";
 import Animated, { FadeInDown } from "react-native-reanimated";
 import { Mode, Rating, Word } from "../types";
@@ -14,6 +14,7 @@ import {
   normalize,
   shuffle,
   similarity,
+  stagesFor,
 } from "../utils/engine";
 import {
   Back,
@@ -33,6 +34,7 @@ import { WordCard } from "../components/WordCard";
 import { feedback, speak, stopSpeech } from "../services/audio";
 import { useRecognition } from "../hooks/useRecognition";
 import { useActiveClock } from "../hooks/useActiveClock";
+import { seededRandom } from '../utils/checkpoint';
 export function SessionScreen({
   words,
   mode,
@@ -44,38 +46,49 @@ export function SessionScreen({
 }) {
   const t = useTheme();
   const settings = useAppStore((s) => s.settings);
-  const [index, setIndex] = useState(0),
-    [stage, setStage] = useState(0),
-    [input, setInput] = useState(""),
-    [tries, setTries] = useState(0),
-    [resolved, setResolved] = useState(false),
-    [correct, setCorrect] = useState(false),
-    [message, setMessage] = useState(""),
+  const saved = useRef(useAppStore.getState().savedSession).current;
+  const initial = saved?.mode === mode && saved.wordIds.join('|') === words.map(w => w.id).join('|') ? saved : null;
+  const [index, setIndex] = useState(initial?.index ?? 0),
+    [stage, setStage] = useState(initial?.stage ?? 0),
+    [input, setInput] = useState(initial?.input ?? ""),
+    [tries, setTries] = useState(initial?.tries ?? 0),
+    [resolved, setResolved] = useState(initial?.resolved ?? false),
+    [correct, setCorrect] = useState(initial?.correct ?? false),
+    [message, setMessage] = useState(initial?.message ?? ""),
     [detail, setDetail] = useState(false),
     [done, setDone] = useState(false),
-    [results, setResults] = useState({ good: 0, total: 0 }),
-    [usedLetters, setUsedLetters] = useState<number[]>([]),
+    [results, setResults] = useState(initial?.results ?? { good: 0, total: 0 }),
+    [usedLetters, setUsedLetters] = useState<number[]>(initial?.usedLetters ?? []),
     [transcript, setTranscript] = useState("");
-  const sessionId = useRef(Crypto.randomUUID()).current;
-  const lock = useRef(false),
+  const sessionId = useRef(initial?.sessionId ?? Crypto.randomUUID()).current;
+  const lock = useRef(initial?.resolved ?? false),
     committed = useRef(false);
-  const stages: Mode[] =
-    mode === "loop"
-      ? ["loop", "choice", "blank", "listening", "speaking"]
-      : [mode];
-  const current = stages[stage];
   const w = words[index];
+  const stages = stagesFor(w, mode);
+  const current = stages[stage];
   const answer = answerFor(w, current);
   const options = useMemo(
     () => choicesFor(w, current, allWords()),
     [w.id, current],
   );
   const letters = useMemo(
-    () => shuffle(w.word.split("").map((c, i) => ({ c, i }))),
+    () => shuffle(w.word.split("").map((c, i) => ({ c, i })), seededRandom(sessionId + w.id)),
     [w.id],
   );
   const clock = useActiveClock(!resolved && !done);
-  const response = useRef(0);
+  const response = useRef(initial?.responseMs ?? 0);
+  const elapsed = useRef(initial?.elapsedMs ?? 0);
+  const checkpoint = useRef<() => void>(() => {});
+  checkpoint.current = () => useAppStore.getState().saveSession(done ? null : {
+    version: 1, sessionId, mode, wordIds: words.map(w => w.id), index, stage, input,
+    tries, resolved, correct, message, results, usedLetters,
+    responseMs: response.current, elapsedMs: elapsed.current + clock.ms.current,
+  });
+  useEffect(() => { checkpoint.current(); }, [index, stage, input, tries, resolved, correct, message, results, usedLetters, done]);
+  useEffect(() => {
+    const sub = AppState.addEventListener('change', state => { if (state !== 'active') checkpoint.current(); });
+    return () => { checkpoint.current(); sub.remove(); };
+  }, []);
   const recognition = useRecognition((text) => {
     if (current !== "speaking" || lock.current || done) return;
     setTranscript(text);
@@ -92,18 +105,7 @@ export function SessionScreen({
     }
   }, [clock.active]);
   useEffect(() => {
-    lock.current = false;
-    committed.current = false;
-    setInput("");
-    setUsedLetters([]);
-    setTries(0);
-    setResolved(false);
-    setCorrect(false);
-    setMessage("");
-    setDetail(false);
-    setTranscript("");
-    clock.reset();
-    if (settings.autoVoice) {
+    if (settings.autoVoice && !resolved) {
       if (
         current === "loop" ||
         current === "listening" ||
@@ -118,7 +120,7 @@ export function SessionScreen({
   function resolve(ok: boolean, text: string) {
     if (lock.current) return;
     lock.current = true;
-    response.current = Math.max(250, clock.ms.current);
+    response.current = Math.max(250, elapsed.current + clock.ms.current);
     setCorrect(ok);
     setResolved(true);
     setMessage(text);
@@ -156,6 +158,7 @@ export function SessionScreen({
       useAppStore
         .getState()
         .addEvent({
+          id: `${sessionId}:${index}:${stage}`,
           sessionId,
           wordId: w.id,
           type: current,
@@ -170,18 +173,23 @@ export function SessionScreen({
         total: r.total + 1,
       }));
     }
+    lock.current = false;
+    setInput(''); setUsedLetters([]); setTries(0); setResolved(false);
+    setCorrect(false); setMessage(''); setDetail(false); setTranscript('');
+    clock.reset(); elapsed.current = 0; response.current = 0;
     if (stage < stages.length - 1) setStage(stage + 1);
     else if (index < words.length - 1) {
       setStage(0);
       setIndex(index + 1);
     } else setDone(true);
   }
+  useEffect(() => { committed.current = false; }, [index, stage]);
   useEffect(() => {
-    if (resolved && settings.autoNext) {
+    if (resolved && settings.autoNext && clock.active) {
       const id = setTimeout(() => next(), 1600);
       return () => clearTimeout(id);
     }
-  }, [resolved, settings.autoNext]);
+  }, [resolved, settings.autoNext, clock.active]);
   const select = [
     "choice",
     "reverse",
@@ -219,7 +227,7 @@ export function SessionScreen({
         onPress={() =>
           Alert.alert(
             "학습을 마칠까요?",
-            "완료한 문제의 기록은 저장되어 있습니다.",
+            "현재 문제와 입력 내용을 저장합니다. 홈에서 이어서 학습할 수 있어요.",
             [
               { text: "계속 학습", style: "cancel" },
               { text: "나가기", onPress: onClose },

@@ -29,6 +29,8 @@ export function WordsScreen({
     [filter, setFilter] = useState("전체"),
     [selected, setSelected] = useState<Word | null>(null),
     [adding, setAdding] = useState(false);
+  const [page, setPage] = useState(0);
+  const pageSize = 40;
   const [word, setWord] = useState(""),
     [meaning, setMeaning] = useState(""),
     [sentence, setSentence] = useState(""),
@@ -161,7 +163,7 @@ export function WordsScreen({
         accessibilityLabel="단어 검색"
         placeholder="영어 단어 또는 한국어 뜻 검색"
         value={query}
-        onChangeText={setQuery}
+        onChangeText={value => { setQuery(value); setPage(0); }}
         autoCapitalize="none"
       />
       <View style={wrap}>
@@ -170,7 +172,7 @@ export function WordsScreen({
             key={f}
             title={f}
             selected={filter === f}
-            onPress={() => setFilter(f)}
+            onPress={() => { setFilter(f); setPage(0); }}
           />
         ))}
       </View>
@@ -194,7 +196,7 @@ export function WordsScreen({
           description="단어를 검색해 추가하거나 직접 나만의 예문을 저장해 보세요."
         />
       )}
-      {visible.map((w) => {
+      {visible.slice(page * pageSize, (page + 1) * pageSize).map((w) => {
         const p = progress[w.id];
         const rate = p
           ? Math.round((p.correctCount / (p.correctCount + p.wrongCount)) * 100)
@@ -237,6 +239,11 @@ export function WordsScreen({
           </Pressable>
         );
       })}
+      {visible.length > pageSize && <Row>
+        <Button title="이전 페이지" secondary disabled={page === 0} onPress={() => setPage(p => p - 1)}/>
+        <Txt>{page + 1} / {Math.ceil(visible.length / pageSize)}</Txt>
+        <Button title="다음 페이지" secondary disabled={(page + 1) * pageSize >= visible.length} onPress={() => setPage(p => p + 1)}/>
+      </Row>}
     </Page>
   );
 }

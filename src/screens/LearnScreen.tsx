@@ -7,6 +7,7 @@ import {
   modeLabels,
   progressOf,
   todayQueue,
+  supportsMode,
 } from "../utils/engine";
 import {
   Button,
@@ -49,8 +50,7 @@ export function LearnScreen({
           보고 → 떠올리고 → 말하기
         </Txt>
         <Txt>
-          한 단어를 여러 감각으로 만나보세요. 전체 코스는 노출, 뜻 선택, 빈칸,
-          받아쓰기, 발음 순서로 진행됩니다.
+          노출 → 뜻 선택 → 빈칸 또는 철자 입력 → 받아쓰기 → 발음 순서로 학습합니다. 예문이 없는 확장 어휘는 철자 입력으로 연습합니다.
         </Txt>
         <Button
           title="기억 완성 코스 시작"
@@ -59,7 +59,7 @@ export function LearnScreen({
         <Button
           title={`약한 유형 집중 · ${modeLabels[adaptiveMode(state.events)]}`}
           secondary
-          onPress={() => start(adaptiveMode(state.events), deck)}
+          onPress={() => start(adaptiveMode(state.events), pool.filter(w => supportsMode(w, adaptiveMode(state.events))))}
         />
       </Card>
       <Txt bold>시험별 세부 단어장</Txt>
@@ -76,6 +76,7 @@ export function LearnScreen({
       <Txt color={t.muted}>
         {pool.length}개 단어 · 지금 학습 {deck.length}개
       </Txt>
+      <Txt color={t.muted}>예문 학습 {pool.filter(w => w.examples.length > 0).length}개 · 코스는 일반 어휘를 포함한 자체 학습용 선별 목록이며 시험기관의 공식 필수 목록이 아닙니다.</Txt>
       <Button
         title="깜빡이 자동 학습"
         icon="flash-outline"
@@ -86,7 +87,7 @@ export function LearnScreen({
         secondary
         onPress={() =>
           start(
-            "blank",
+            "loop",
             pool.filter((w) => isWeak(p[w.id])),
           )
         }
@@ -104,13 +105,7 @@ export function LearnScreen({
             onPress={() =>
               start(
                 m,
-                deck.filter((w) =>
-                  m === "synonym"
-                    ? w.synonyms.length > 0
-                    : m === "antonym"
-                      ? w.antonyms.length > 0
-                      : true,
-                ),
+                todayQueue(pool.filter(w => supportsMode(w, m)), state.events, state.settings),
               )
             }
           />

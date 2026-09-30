@@ -45,13 +45,14 @@ export function WordCard({
           <View
             style={{ height: 1, backgroundColor: t.line, marginVertical: 5 }}
           />
-          <Txt size={18}>{e.sentence}</Txt>
+          {e ? <><Txt size={18}>{e.sentence}</Txt>
           <Txt color={t.muted}>{e.translation}</Txt>
           <Button
             title="예문 듣기"
             secondary
             onPress={() => void speak(e.sentence)}
           />
+          </> : <Txt color={t.muted}>뜻·철자·듣기·발음 학습을 지원하는 확장 어휘입니다. 이 단어에는 예문이 수록되어 있지 않습니다.</Txt>}
           <Txt size={13}>
             유의어 {w.synonyms.join(", ") || "등록된 유의어 없음"}
           </Txt>

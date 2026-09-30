@@ -2,15 +2,19 @@ import { create } from "zustand";
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import * as Crypto from "expo-crypto";
 import raw from "../data/words.json";
+import expanded from '../data/expanded-words.json';
+import membership from '../data/course-membership.json';
 import {
   DEFAULT_SETTINGS,
   Settings,
   Snapshot,
+  SessionCheckpoint,
   StudyEvent,
   Word,
 } from "../types";
 import { dayKey } from "../utils/engine";
-export const seedWords: Word[] = raw;
+const coursesById: Record<string, string[]> = membership;
+export const seedWords: Word[] = [...raw, ...expanded].map(w => ({ ...w, categories: [...new Set([...w.categories, ...(coursesById[w.id] ?? [])])] }));
 const fresh = (): Snapshot => ({
   settings: { ...DEFAULT_SETTINGS },
   events: [],
@@ -18,6 +22,7 @@ const fresh = (): Snapshot => ({
   favorites: [],
   personalIds: [],
   profileDirty: false,
+  savedSession: null,
 });
 type State = Snapshot & {
   account: string;
@@ -26,7 +31,8 @@ type State = Snapshot & {
   syncStatus: string;
   hydrate: (account: string) => Promise<void>;
   setSettings: (s: Partial<Settings>) => void;
-  addEvent: (e: Omit<StudyEvent, "id" | "at" | "day">) => void;
+  addEvent: (e: Omit<StudyEvent, "id" | "at" | "day"> & { id?: string }) => void;
+  saveSession: (session: SessionCheckpoint | null) => void;
   toggleFavorite: (id: string) => void;
   togglePersonal: (id: string) => void;
   addWord: (w: Word) => void;
@@ -47,6 +53,7 @@ function persist() {
     favorites: s.favorites,
     personalIds: s.personalIds,
     profileDirty: s.profileDirty,
+    savedSession: s.savedSession,
   };
   const key = "vocaquest:v1:" + s.account;
   writes = writes
@@ -96,12 +103,13 @@ export const useAppStore = create<State>((set, get) => ({
     persist();
   },
   addEvent: (e) => {
+    if (e.id && get().events.some(event => event.id === e.id)) return;
     const events = [
       ...get().events,
       {
         ...e,
         dailyGoal: get().settings.dailyGoal,
-        id: Crypto.randomUUID(),
+        id: e.id ?? Crypto.randomUUID(),
         at: new Date().toISOString(),
         day: dayKey(),
       },
@@ -141,6 +149,7 @@ export const useAppStore = create<State>((set, get) => ({
     });
     persist();
   },
+  saveSession: (savedSession) => { set({ savedSession }); persist(); },
   togglePersonal: (id) => {
     set({
       personalIds: get().personalIds.includes(id)

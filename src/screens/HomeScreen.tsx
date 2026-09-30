@@ -138,20 +138,9 @@ export function HomeScreen({
         </Txt>
         <Button
           title={
-            queue.length ? "오늘의 학습 시작  →" : "선택한 코스 복습하기  →"
+            state.savedSession ? "학습 이어하기  →" : "오늘의 학습 시작  →"
           }
-          onPress={() =>
-            start(
-              "loop",
-              queue.length
-                ? queue
-                : words
-                    .filter((w) =>
-                      w.categories.some((c) => s.selectedCourses.includes(c)),
-                    )
-                    .slice(0, s.dailyGoal),
-            )
-          }
+          onPress={() => start("loop")}
           style={{ backgroundColor: "#E4F0BB" }}
           secondary
         />

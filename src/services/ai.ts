@@ -12,5 +12,5 @@ export interface LearningAI {
 export const offlineAI: LearningAI = {
   example: async ({ word }) => word.examples[0],
   explain: async ({ word }) =>
-    `${word.word}: ${word.meanings.join(", ")}. ${word.examples[0].translation}`,
+    `${word.word}: ${word.meanings.join(", ")}. ${word.examples[0]?.translation ?? ''}`,
 };

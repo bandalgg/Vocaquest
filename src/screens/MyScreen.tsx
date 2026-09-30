@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Alert, Switch, View } from "react-native";
+import { Alert, Linking, Switch, View } from "react-native";
 import {
   Button,
   Card,
@@ -171,6 +171,11 @@ export function MyScreen() {
           처리하며 기기 설정에 따라 네트워크를 사용할 수 있습니다. 앱은 음성
           녹음 파일을 저장하지 않습니다.
         </Txt>
+      </Card>
+      <Card>
+        <Txt bold>어휘 데이터 출처</Txt>
+        <Txt size={13}>Open English-Korean Dictionary / LexiSnap 기여자 · CC BY-SA 4.0. CEFR-J Wordlist 1.5 / Yukio Tono, Tokyo University of Foreign Studies. Octanove C1/C2 / Octanove Labs · CC BY-SA 4.0. VOCA QUEST에서 뜻 수정·코스 분류·형식 변환을 적용했습니다. 확장 어휘 데이터는 CC BY-SA 4.0으로 제공합니다.</Txt>
+        <Button title="출처·라이선스 보기" secondary onPress={() => void Linking.openURL('https://github.com/bandalgg/Vocaquest/blob/main/THIRD_PARTY_NOTICES.md').catch(() => Alert.alert('연결 실패', '인터넷 연결을 확인해 주세요.'))}/>
       </Card>
     </Page>
   );

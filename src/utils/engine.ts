@@ -218,6 +218,15 @@ export const modeLabels: Record<Mode, string> = {
   scramble: "철자 배열",
   speaking: "발음 연습",
 };
+export function supportsMode(w: Word, mode: Mode | 'flash') {
+  if (['blank','sentenceAudio','context'].includes(mode)) return !!w.examples[0]?.answer;
+  if (mode === 'synonym') return w.synonyms.length > 0;
+  if (mode === 'antonym') return w.antonyms.length > 0;
+  return true;
+}
+export function stagesFor(w: Word, mode: Mode): Mode[] {
+  return mode === 'loop' ? ['loop','choice',w.examples.length ? 'blank' : 'typing','listening','speaking'] : [mode];
+}
 export function answerFor(w: Word, m: Mode) {
   if (["choice", "context"].includes(m)) return w.meanings[0];
   if (["blank", "sentenceAudio"].includes(m)) return w.examples[0].answer;

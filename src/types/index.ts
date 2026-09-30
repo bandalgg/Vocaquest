@@ -124,12 +124,30 @@ export interface User {
   selectedCourses: string[];
 }
 export interface Snapshot {
+  savedSession?: SessionCheckpoint | null;
   settings: Settings;
   events: StudyEvent[];
   customWords: Word[];
   favorites: string[];
   personalIds: string[];
   profileDirty: boolean;
+}
+export interface SessionCheckpoint {
+  version: 1;
+  sessionId: string;
+  mode: Mode;
+  wordIds: string[];
+  index: number;
+  stage: number;
+  input: string;
+  tries: number;
+  resolved: boolean;
+  correct: boolean;
+  message: string;
+  results: { good: number; total: number };
+  usedLetters: number[];
+  responseMs: number;
+  elapsedMs: number;
 }
 export const DEFAULT_SETTINGS: Settings = {
   nickname: "퀘스터",

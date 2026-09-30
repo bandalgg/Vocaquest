@@ -11,7 +11,7 @@ import { SafeAreaProvider, SafeAreaView } from "react-native-safe-area-context";
 import { StatusBar } from "expo-status-bar";
 import { useAppStore, allWords } from "./src/store/useAppStore";
 import { Mode, Word } from "./src/types";
-import { todayQueue } from "./src/utils/engine";
+import { todayQueue, supportsMode } from "./src/utils/engine";
 import { Icon, IconName, Txt, useTheme } from "./src/components/UI";
 import { OnboardingScreen } from "./src/screens/OnboardingScreen";
 import { HomeScreen } from "./src/screens/HomeScreen";
@@ -23,6 +23,7 @@ import { SessionScreen } from "./src/screens/SessionScreen";
 import { FlashScreen } from "./src/screens/FlashScreen";
 import { ConversationScreen } from "./src/screens/ConversationScreen";
 import { stopSpeech } from "./src/services/audio";
+import { restoreSession } from './src/utils/checkpoint';
 const tabs: { title: string; icon: IconName }[] = [
   { title: "홈", icon: "grid-outline" },
   { title: "학습", icon: "planet-outline" },
@@ -74,16 +75,31 @@ function Shell() {
     return () => sub.remove();
   }, [session, tab, conversation]);
   function start(mode: Mode | "flash", words?: Word[]) {
-    const chosen =
-      words ?? todayQueue(allWords(), state.events, state.settings);
+    const saved = restoreSession(useAppStore.getState().savedSession, allWords());
+    if (saved && mode !== 'flash' && !words) {
+      setSession({ mode: saved.checkpoint.mode, words: saved.words });
+      return;
+    }
+    const chosen = (words ?? todayQueue(allWords().filter(w => supportsMode(w, mode)), state.events, state.settings))
+      .filter(w => supportsMode(w, mode)).slice(0, state.settings.dailyGoal);
     if (!chosen.length) {
       Alert.alert(
         "학습할 단어가 없습니다",
-        "다른 코스를 선택하거나 내 단어장에 단어를 추가해 주세요. 복습할 단어는 복습 시간이 되면 표시됩니다.",
+        "선택한 범위에 이 문제 유형을 지원하는 단어가 없거나 아직 복습 시간이 되지 않았습니다. 다른 유형이나 코스를 선택해 주세요.",
       );
       return;
     }
-    setSession({ mode, words: chosen });
+    const begin = () => {
+      if (mode !== 'flash') useAppStore.getState().saveSession(null);
+      setSession({ mode, words: chosen });
+    };
+    if (saved && mode !== 'flash') {
+      Alert.alert('진행 중인 학습이 있어요', '이어하기를 누르면 저장된 문제로 돌아갑니다. 새 학습을 선택해도 완료한 정답 기록은 유지됩니다.', [
+        { text: '취소', style: 'cancel' },
+        { text: '새 학습', onPress: begin },
+        { text: '이어하기', onPress: () => setSession({ mode: saved.checkpoint.mode, words: saved.words }) },
+      ]);
+    } else begin();
   }
   if (!initialized || !state.ready)
     return (
@@ -123,7 +139,7 @@ function Shell() {
             ) : tab === 1 ? (
               <LearnScreen start={start} onConversation={() => setConversation(true)} />
             ) : tab === 2 ? (
-              <WordsScreen startWeak={(ws) => start("blank", ws)} />
+              <WordsScreen startWeak={(ws) => start("loop", ws)} />
             ) : tab === 3 ? (
               <StatsScreen />
             ) : (

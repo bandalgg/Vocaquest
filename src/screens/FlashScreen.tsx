@@ -76,12 +76,12 @@ export function FlashScreen({
     }
     if (s.autoVoice && phase === 0)
       void speak(s.reverse ? w.meanings[0] : w.word, s.reverse);
-    if (phase === 2 && s.exampleAudio) void speak(w.examples[0].sentence);
+    if (phase === 2 && s.exampleAudio && w.examples[0]) void speak(w.examples[0].sentence);
     const delay =
       ((phase === 0 ? s.wordSeconds : s.meaningSeconds) * 1000) / s.flashSpeed;
     const id = setTimeout(() => {
       if (phase === 0) setPhase(1);
-      else if (phase === 1 && s.showExample) setPhase(2);
+      else if (phase === 1 && s.showExample && w.examples.length) setPhase(2);
       else next();
     }, delay);
     return () => {
@@ -168,7 +168,7 @@ export function FlashScreen({
               {s.reverse ? w.meanings.join(" · ") : w.meanings.join(" · ")}
             </Txt>
           )}
-          {phase === 2 && (
+          {phase === 2 && w.examples[0] && (
             <View style={{ gap: 12, marginTop: 12 }}>
               <Txt size={19} style={{ textAlign: "center" }}>
                 {w.examples[0].sentence}

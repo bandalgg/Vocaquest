@@ -1,0 +1,20 @@
+{
+  "courseCounts": {
+    "수능 영어": 5000,
+    "TOEIC": 5000,
+    "TOEFL": 5000
+  },
+  "uniqueCombined": 5790,
+  "expanded": 5682,
+  "withExamples": 108,
+  "sourceHashes": {
+    "course-dictionary.json": "930d72d458499aa43709147de0b78f7e552852c4a43f712f25089c4e1114015e",
+    "course-profile-1.csv": "471989d1c9dafa90a9fc5a17abf2bfe42c9b20ea29647115f99d643b7c659294",
+    "course-profile-2.csv": "d01b9531a6e0754a00645c9cb36e444a7b0b36ede57b213b0588b9101df430ea"
+  },
+  "overlap": {
+    "수능 영어 / TOEIC": 4812,
+    "수능 영어 / TOEFL": 4397,
+    "TOEIC / TOEFL": 4267
+  }
+}

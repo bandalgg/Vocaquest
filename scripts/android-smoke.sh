@@ -20,3 +20,4 @@ assert not errors, '\n'.join(errors)
 screen = Path('diagnostics/window.xml').read_text()
 assert 'YOUR FIRST QUEST' in screen, 'Onboarding did not render; inspect diagnostics'
 PY
+python3 scripts/android-resume-test.py

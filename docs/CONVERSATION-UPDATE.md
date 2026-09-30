@@ -1,5 +1,7 @@
 # Conversation and next-day review update
 
+Historical release notes. The later vocabulary expansion and session recovery release is documented in [EXPANSION-AND-RESUME.md](EXPANSION-AND-RESUME.md); its counts supersede the outstanding-data section below.
+
 ## Included
 
 - Learn → 회화학습 시작 opens Lumi, an original character drawn with SVG.
